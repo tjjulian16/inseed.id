@@ -115,10 +115,10 @@
           <div class="row">
            <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 logo_footer">
                <a href="index.php"><img src="assets/image/logo.png" style="width: 280px; height: auto;"></a>
-               <h6 style="margin-left: 5%;">Invest Seaweed in Indonesia</h6>
+               <h6 >Invest Seaweed in Indonesia</h6>
            </div>
         <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 contact" style="text-align: center; ">
-               <h4 style="border-bottom: 2px solid white;  padding-bottom: 5px; margin-bottom: 6%; ">CONTACT US</h4>
+               <h4>CONTACT US</h4>
                <div class="row">
                <div class="col-xl-4 col-md-4 col-sm-6 col-xs-6">
                  <h6><b>Address: </b></h6>
@@ -146,7 +146,7 @@
              
            </div>
               <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 socialmedia" style="text-align: center;">
-                <h4 style="border-bottom: 2px solid white;  padding-bottom: 5px; margin-bottom: 6%; ">OUR SOCIAL MEDIA</h4>
+                <h4>OUR SOCIAL MEDIA</h4>
               <span class="fa fa-facebook-official socmed-icon"></span><span class="fa fa-twitter-square socmed-icon"></span><span class="fa fa-instagram socmed-icon"></span>
            </div>
           </div> 

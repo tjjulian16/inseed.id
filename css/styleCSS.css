@@ -140,18 +140,29 @@ body {
     color: #fff;
     padding: 20px;
 }
-
+.logo_footer h6{
+	margin-left: 5%;
+}
 #contact-us b{
 	margin-right: 15px;
+}
+#contact-us h4{
+	border-bottom: 2px solid white;  padding-bottom: 5px; margin-bottom: 6%;
 }
 .socmed-icon {
     margin: 10px 20px;
     font-size: 30px !important;
 }
 @media screen and (max-width: 1100px) {
+	#contact-us h4{
+		padding-bottom: 25px;
+	}
     .logo_footer{
     	text-align: center;
     	margin-bottom: 10%;
+    }
+    .logo_footer h6{
+    	margin-left:0%;
     }
     .contact{
     	text-align: center;
