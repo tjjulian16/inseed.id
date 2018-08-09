@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat';  
+}
+
+/*navbar*/
+
+#header{
+    position: sticky; 
+    top:0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+/*login page*/
+
+#cardLogin{
+	opacity: 0.9; border-radius: 20px;
+}
+
+#cardLogin h2,input{
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#cardLogin #daftarNow{
+	border-top: 1px solid black; 
+	width:65%;
+	 margin-left: 18%; 
+	 padding-top: 10px;
+	margin-bottom: 5%;
+}
+
+#cardLogin button{
+	width: 50%;
+	margin-left: 35%;
+	margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1100px){
+	#cardLogin h2,input{
+	margin-bottom: 5%;
+}
+
+#cardLogin button{
+	width: 50%;
+	margin-bottom: 5%;
+}
+
+}
+
+/* Pendahuluan page about us */
+#pendahuluan{
+    text-align: center;
+    background: url("../assets/image/petani/petani2_background.jpg") no-repeat;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+  }
+  #pendahuluan img {
+      width: 400px;
+      height: auto;
+      margin: 40px 0px;
+    }
+  #pendahuluan p{
+   margin-top: 2%;
+   padding: 0% 10% 2% 10%;
+   font-size: 20px;
+   text-align: justify;
+   line-height: 2;
+  }
+  .pendahuluan-title {
+    color: #12A8BB;
+  }
+  @media screen and (max-width: 1100px) {
+    #pendahuluan p {
+      font-size: 16px;
+    }
+    #pendahuluan img {
+      width: 50%;
+      height: auto;
+    }
+    .pendahuluan-title {
+      font-size: 24px;
+    }
+  }
+
+   /*----Fitur----*/
+  #fitur p{
+    font-size: 18px;
+    text-align: justify; 
+    line-height: 2;
+  }
+  .cyan-background {
+    background: #317e85;
+    padding: 30px !important;
+  }
+  .white-background {
+    background: #fff;
+    padding: 30px !important;
+  }
+  .fitur-right-side {
+    float: right !important;
+  }
+  .fitur-left-side {
+    float: left !important;
+  }
+  .fitur-img {
+    width: 250px;
+    height: 250px;
+  }
+  .text-fitur-white {
+    color: #fff;
+  }
+  .text-fitur-cyan {
+    color: #12A8BB;
+  }
+  .text-fitur-title {
+    margin: 10px 0 20px 0;
+  }
+  @media screen and (max-width: 1100px) {
+    .fitur-img {
+      width: 200px;
+      height: 200px;
+    }
+    .text-fitur-title {
+      font-size: 24px;
+    }
+    .text-fitur-content {
+      font-size: 18px;
+    }
+  }
+
+  /* FOOTER */
+#contact-us {
+   background-color: #032b2f;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+}
+
+#contact-us b{
+	margin-right: 15px;
+}
+.socmed-icon {
+    margin: 10px 20px;
+    font-size: 30px !important;
+}
+@media screen and (max-width: 1100px) {
+    .logo_footer{
+    	text-align: center;
+    	margin-bottom: 10%;
+    }
+    .contact{
+    	text-align: center;
+    	margin-bottom: 10%;
+    }
+    .socialmedia{
+    	text-align: center;
+    	margin-bottom: 10%;
+    }
+}
