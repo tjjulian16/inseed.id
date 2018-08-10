@@ -38,7 +38,7 @@
         <a class="nav-link" href="#">SEAWEED MART</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">SEAWEED ARTICLE</a>
+        <a class="nav-link" href="article.php">SEAWEED ARTICLE</a>
       </li>
        <li class="nav-item">
         <a class="nav-link" href="about_us.php">TENTANG KAMI</a>

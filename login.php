@@ -17,7 +17,7 @@
 </head>
 
 
-<body style="background-image:url(assets/image/petani/petani1.jpg); background-size: cover;">
+<body style="background-image:url(assets/image/petani/petani1.jpg); background-size: stretch ; background-repeat: no-repeat;">
   <section id="header">
 <nav class="navbar navbar-expand-lg navbar-light bg-white" id="header">
  <a href="index.php"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
@@ -40,13 +40,13 @@
         <a class="nav-link" href="#">SEAWEED MART</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">SEAWEED ARTICLE</a>
+        <a class="nav-link" href="article.php">SEAWEED ARTICLE</a>
       </li>
        <li class="nav-item">
         <a class="nav-link" href="about_us.php">TENTANG KAMI</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">MASUK</a>
+        <a class="nav-link" href="login.php">MASUK</a>
       </li>
     </ul>
   </div>
