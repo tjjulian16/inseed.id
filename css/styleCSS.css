@@ -229,9 +229,10 @@ color: white; text-align: center; margin-top: 4%;
 }
 
 .separator-multi-item {
-    width: 100%; 
-    border-width: 3px;
-    padding: 0 !important;
+  float: left;
+  width: 100%; 
+  border-width: 3px;
+  padding: 0 !important;
 }
 
 .judulArtikel{

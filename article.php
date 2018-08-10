@@ -12,6 +12,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/jcarousel.responsive.js"></script>
   <script src="js/jquery.jcarousel.min.js"></script>
 </head>
@@ -128,14 +130,14 @@
 
   <h3 class="JudulSectionArtikel">ARTIKEL TERKINI</h3>
 
+  
+  <div class="jcarousel-wrapper">
   <a href="#" class="jcarousel-control-next">&rsaquo;</a>
   <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-
-  <div class="jcarousel-wrapper">
-
+  <hr class="col-lg-12 col-xs-12 separator-multi-item">
       <div class="jcarousel">
 
-          <ul style="padding-top: 4%; border-top: 2px solid grey;">
+          <ul style="padding-top: 4%;">
              <li>
                   <img class="artikelTerbaru" src="assets/image/produk/produk2.jpg" alt="Image 1">
                   <h5 class="judulArtikel">10 resep budidaya rumput laut</h5>
@@ -174,7 +176,7 @@
                   <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Detail Produk</a>
           </ul>
       </div>
-  </div>
+</div>
   </div>
 </section>
 
