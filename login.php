@@ -17,7 +17,11 @@
 </head>
 
 
-<body style="background-image:url(assets/image/petani/petani1.jpg); background-size: stretch ; background-repeat: no-repeat;">
+<body style="background:url(assets/image/petani/petani1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
   <section id="header">
 <nav class="navbar navbar-expand-lg navbar-light bg-white" id="header">
  <a href="index.php"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
