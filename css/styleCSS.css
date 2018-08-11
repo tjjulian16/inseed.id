@@ -268,3 +268,14 @@ color: white; text-align: center; margin-top: 4%;
 		margin-left: 0;
 	}
 }
+/* ---------DAFTAR BOSQ---------*/
+.headSignUp {
+	background-color: #167c85;
+	height: 50%;
+	color: white;
+	text-align: center;
+	padding: 7%;
+}
+#abu {
+	background-color: #eeeeee;
+}
