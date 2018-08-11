@@ -241,6 +241,9 @@ color: white; text-align: center; margin-top: 4%;
 .barisArtikelAtas{
 margin: 5% 0;
 }
+
+
+
 @media screen and (max-width: 1100px) {
 	.barisArtikelAtas{
 		margin-left: 8%;
@@ -266,5 +269,8 @@ color: white; text-align: center; margin-top: 4%;
 		font-size: 25px;
 		font-weight: bold;
 		margin-left: 0;
+	}
+	#artikelBawah li{
+		
 	}
 }

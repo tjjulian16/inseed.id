@@ -154,26 +154,20 @@
                   <a href="#" class="btn btn-primary">Lihat Detail</a>
               </li>
               <li>
-                <img class="artikelTerbaru" src="Assets/Buku_PHP.jpg" alt="Image 1">
-                <h3 class="text-hot-deals-title">Buku PHP 5</h3>
-                <h4 class="text-hot-deals-seller">Komputer</h4>
-                <h4 class="text-hot-deals-price">Rp 55.000</h4>
-                <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Detail Produk</a>
+                <img class="artikelTerbaru" src="assets/image/produk/produk2.jpg" alt="Image 1">
+                  <h5 class="judulArtikel">Rumput laut ditemukan di teluk Malang</h5>
+                  <a href="#" class="btn btn-primary">Lihat Detail</a>
               </li>
               <li>
-                  <img class="artikelTerbaru" src="Assets/Buku_Organisasi.jpg" alt="Image 1">
-                  <h3 class="text-hot-deals-title">Buku Teori Organisasi</h3>
-                  <h4 class="text-hot-deals-seller">Ekonomi & Bisnis</h4>
-                  <h4 class="text-hot-deals-price">Rp 50.000</h4>
-                  <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Detail Produk</a>
+                 <img class="artikelTerbaru" src="assets/image/produk/produk2.jpg" alt="Image 1">
+                  <h5 class="judulArtikel">Rumput laut ditemukan di teluk Malang</h5>
+                  <a href="#" class="btn btn-primary">Lihat Detail</a>
                 </li>
                
                 <li>
-                  <img class="artikelTerbaru" src="Assets/Rotring.jpg" alt="Image 1">
-                  <h3 class="text-hot-deals-title">Jangka Ziegel</h3>
-                  <h4 class="text-hot-deals-seller">Teknik</h4>
-                  <h4 class="text-hot-deals-price">Rp 85.000</h4>
-                  <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Detail Produk</a>
+                 <img class="artikelTerbaru" src="assets/image/produk/produk2.jpg" alt="Image 1">
+                  <h5 class="judulArtikel">Rumput laut ditemukan di teluk Malang</h5>
+                  <a href="#" class="btn btn-primary">Lihat Detail</a>
           </ul>
       </div>
 </div>
