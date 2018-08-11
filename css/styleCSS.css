@@ -270,7 +270,22 @@ color: white; text-align: center; margin-top: 4%;
 		font-weight: bold;
 		margin-left: 0;
 	}
+<<<<<<< HEAD
 	#artikelBawah li{
 		
 	}
 }
+=======
+}
+/* ---------DAFTAR BOSQ---------*/
+.headSignUp {
+	background-color: #167c85;
+	height: 50%;
+	color: white;
+	text-align: center;
+	padding: 7%;
+}
+#abu {
+	background-color: #eeeeee;
+}
+>>>>>>> 98d91cc035462c64a83d0bdab17707e70105a80d
