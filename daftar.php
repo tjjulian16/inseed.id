@@ -54,46 +54,43 @@
 
   <section id="signup Page" >
   <div class="headSignUp">
-  <h1>DAFTAR</h1>
+  <h1>YUK GABUNG KITA SEKARANG!</h1>
   <h5>Daftarkan akun anda secara gratis!</h5>
   </div>
   
     
 <div class = "container">
-  <div class="col-md-6 col-sm-12 col-xs-12" style="margin: 10% auto;">
-  <div class ="card" id="cardLogin">
+  <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12" style="margin: 10% auto;">
+  <div class ="card" id="cardDaftar">
     <div class="card-body" id="abu">
         <h5 style="text-align: center;">Hai, masukkan data pada kolom tersedia!</h5><br>
-        <form action="insert.php" method="POST" class="col-md-10 col-sm-10 col-xs-10" style="float: left;">
+        <form action="insert.php" method="POST" class="col-md-12 col-sm-12 col-xs-12" style="float: left;">
   <div class="form-group" >
     <input type="text" class="form-control" placeholder="Nama Depan" name="firstname" >
     <input type="text" class="form-control" placeholder="Nama Belakang" name="lastname">
 	<input type="date" class="form-control" name="birthday" min="1980-01-01" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"/>
 
-		<input checked="checked" class="form-control" name="sex" type="radio" value="laki-laki" /> Laki-laki <br /> 
-		<input name="sex" type="radio" value="perempuan" /> Perempuan <br />  
-	
+      <select class="form-control" id="JenisKelamin">
+      <option value="Pria">Pria</option>
+      <option value="Wanita">Wanita</option>
+   </select>
+
 	<input type="text" class="form-control" placeholder="Nama Akun" name="account" >
 	<input type="email" class="form-control" placeholder="Email" name="email" >
     <input type="password" class="form-control" placeholder="Password" name="password">
 	<input type="password" class="form-control" placeholder="Ulangi Password" name="password2" >
     <input type="text" class="form-control" placeholder="No. Handphone" name="phone">
-	<input type="" class="form-control" placeholder="" name="">
+	<p style="text-align: justify;">Dengan menekan Daftar Sekarang, saya mengonfirmasi telah menyetujui <a href="#">Syarat dan Ketentuan</a>, serta <a href="#">Kebijakan Privasi</a> inseed.id</p>
+  <div class="col-xl-12 col-md-12 col-xs-12 col-sm-12" style="text-align: center;"> 
+
+         <button type="submit" class="btn btn-outline-primary" style="padding: 2% 20%; margin: 5% 0">DAFTAR SEKARANG</button>
+</div>
+
   </div>
-  <button type="submit" class="btn btn-outline-primary">Daftar</button>
+</div>
+</div>
+</div>
 </form>
-
-
-</div>
-<div class="col-md-12" style="text-align: center;"> 
-<label for="register-thirdparty" class="checkbox">
-          <input type="checkbox" class="form-control" id="register-thirdparty" name="signup_form[thirdpartyemail]" class="thirdparty" value="true">
-          Saya setuju syarat dan ketentuan inseed.id
-        </label>
-</div>
-
-</div>
-</div>
   </section>
   <section id="contact-us">
         <div class="container">
