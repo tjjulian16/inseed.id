@@ -77,8 +77,24 @@
 
 	<input type="text" class="form-control" placeholder="Nama Akun" name="account" >
 	<input type="email" class="form-control" placeholder="Email" name="email" >
-    <input type="password" class="form-control" placeholder="Password" name="password">
-	<input type="password" class="form-control" placeholder="Ulangi Password" name="password2" >
+    <input type="password" class="form-control" placeholder="Password" name="password" id="pw1">
+	<input type="password" class="form-control" placeholder="Ulangi Password" name="password2" id="pw2">
+	  <script type="text/javascript">
+    window.onload = function () {
+        document.getElementById("pw1").onchange = validatePassword;
+        document.getElementById("pw2").onchange = validatePassword;
+    }
+
+    function validatePassword(){
+    var pass2=document.getElementById("pw2").value;
+    var pass1=document.getElementById("pw1").value;
+    if(pass1!=pass2)
+        document.getElementById("pw2").setCustomValidity("Passwords Tidak Sama, Coba Lagi");
+    else
+        document.getElementById("pw2").setCustomValidity('');
+    }
+</script>
+
     <input type="text" class="form-control" placeholder="No. Handphone" name="phone">
 	<p style="text-align: justify;">Dengan menekan Daftar Sekarang, saya mengonfirmasi telah menyetujui <a href="#">Syarat dan Ketentuan</a>, serta <a href="#">Kebijakan Privasi</a> inseed.id</p>
   <div class="col-xl-12 col-md-12 col-xs-12 col-sm-12" style="text-align: center;"> 
