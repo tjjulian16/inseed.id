@@ -20,7 +20,7 @@ body {
 	opacity: 0.9; border-radius: 20px;
 }
 
-#cardLogin h2,input{
+#cardLogin h2,#cardLogin input{
 	margin-bottom: 10%;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -241,6 +241,9 @@ color: white; text-align: center; margin-top: 4%;
 .barisArtikelAtas{
 margin: 5% 0;
 }
+
+
+
 @media screen and (max-width: 1100px) {
 	.barisArtikelAtas{
 		margin-left: 8%;
@@ -267,4 +270,74 @@ color: white; text-align: center; margin-top: 4%;
 		font-weight: bold;
 		margin-left: 0;
 	}
+
+	#artikelBawah li{
+		
+	}
 }
+
+
+/* ---------DAFTAR BOSQ---------*/
+.headSignUp {
+	background-color: #167c85;
+	height: 50%;
+	color: white;
+	text-align: center;
+	padding: 7%;
+}
+#abu {
+	background-color: #eeeeee;
+}
+
+#cardDaftar input,#cardDaftar select{
+	margin-left: 0%;
+	margin-bottom: 10%;
+}
+
+/*-----------PEMBAYARAN BOSQ-------*/
+
+.header{
+	background-color: #167c85;
+	height: 25%;
+	color: white;
+	text-align: left;
+	padding: 2%;
+}
+.kontenPembayaran{
+	margin: 2% 0;
+
+
+}
+.kontenPembayaran h3, .kontenPembayaran input, .kontenPembayaran select{
+	margin:2% 0;
+}
+
+.cardPembayaran{
+	border-radius: 25px; border:2px solid grey;
+	padding-bottom: 2%;
+}
+
+.kontenDetail{
+	margin-top: 2%;
+}
+
+.kontenDetail h5{
+	border-bottom: 1px solid grey; margin-bottom: 5%; padding-bottom: 3%; 
+}
+
+.kontenDetail h6{
+	margin-top: 3%;
+}
+
+.kontenDetail img{
+	max-height: 150px; width: auto; margin-left: 3%;
+}
+
+@media screen and (max-width: 1100px){
+	.kontenDetail img{
+		max-height: 110px;
+	}
+	.cardPembayaran{
+		margin-bottom: 10%;
+	}
+	}
