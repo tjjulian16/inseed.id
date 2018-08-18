@@ -49,6 +49,15 @@ body {
 	margin-bottom: 5%;
 }
 
+#cardLogin input{
+	margin-left: 0%;
+}
+
+}
+@media screen and (min-width: 600px){
+	#cardLogin input{
+		margin-left: 10%;
+	}
 }
 /* -----------ABOUT US BOSQ---------- */
 /* Pendahuluan page about us */
