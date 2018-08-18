@@ -7,57 +7,61 @@ body {
 /*navbar*/
 
 #header{
-    position: sticky; 
-    top:0px;
+    position: fixed; 
+    height: 60px;
+    top: 0;
+    border-radius: 0;
+    border: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 4px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 
 /*----------------LOGIN PAGE BOSQ--------------*/
 
 #cardLogin{
-	opacity: 0.9; border-radius: 20px;
+  opacity: 0.9; border-radius: 20px;
 }
 
 #cardLogin h2,#cardLogin input{
-	margin-bottom: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 #cardLogin #daftarNow{
-	border-top: 1px solid black; 
-	width:65%;
-	 margin-left: 18%; 
-	 padding-top: 10px;
-	margin-bottom: 5%;
+  border-top: 1px solid black; 
+  width:65%;
+   margin-left: 18%; 
+   padding-top: 10px;
+  margin-bottom: 5%;
 }
 
 #cardLogin button{
-	width: 50%;
-	margin-left: 35%;
-	margin-bottom: 5%;
+  width: 50%;
+  margin-left: 35%;
+  margin-bottom: 5%;
 }
 
 @media screen and (max-width: 1100px){
-	#cardLogin h2,input{
-	margin-bottom: 5%;
+  #cardLogin h2,input{
+  margin-bottom: 5%;
 }
 
 #cardLogin button{
-	width: 50%;
-	margin-bottom: 5%;
+  width: 50%;
+  margin-bottom: 5%;
 }
 
 #cardLogin input{
-	margin-left: 0%;
+  margin-left: 0%;
 }
 
 }
 @media screen and (min-width: 600px){
-	#cardLogin input{
-		margin-left: 10%;
-	}
+  #cardLogin input{
+    margin-left: 10%;
+  }
 }
 /* -----------ABOUT US BOSQ---------- */
 /* Pendahuluan page about us */
@@ -150,45 +154,45 @@ body {
     padding: 20px;
 }
 .logo_footer h6{
-	margin-left: 5%;
+  margin-left: 5%;
 }
 #contact-us b{
-	margin-right: 15px;
+  margin-right: 15px;
 }
 #contact-us h4{
-	border-bottom: 2px solid white;  padding-bottom: 5px; margin-bottom: 6%;
+  border-bottom: 2px solid white;  padding-bottom: 5px; margin-bottom: 6%;
 }
 .socmed-icon {
     margin: 10px 20px;
     font-size: 30px !important;
 }
 @media screen and (max-width: 1100px) {
-	#contact-us h4{
-		padding-bottom: 25px;
-	}
+  #contact-us h4{
+    padding-bottom: 25px;
+  }
     .logo_footer{
-    	text-align: center;
-    	margin-bottom: 10%;
+      text-align: center;
+      margin-bottom: 10%;
     }
     .logo_footer h6{
-    	margin-left:0%;
+      margin-left:0%;
     }
     .contact{
-    	text-align: center;
-    	margin-bottom: 10%;
+      text-align: center;
+      margin-bottom: 10%;
     }
     .socialmedia{
-    	text-align: center;
-    	margin-bottom: 10%;
-    	
+      text-align: center;
+      margin-bottom: 10%;
+      
     }
 }
 
 /* ---------ARTICLE BOSQ---------*/
 
 #carouselArticle img{
-	width: 100%;
-	max-height: 400px;
+  width: 100%;
+  max-height: 400px;
 }
 
 #carouselArticle .caption{
@@ -196,41 +200,41 @@ color: white; text-align: center; margin-top: 4%;
 }
 
 .boxHeadline{
-	padding: 2%; background-color: black; margin-left: 5%;
-	border-radius: 25px;
-	box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%; background-color: black; margin-left: 5%;
+  border-radius: 25px;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .topArticle{
-	padding: 25px; border:1px black; border-radius: 25px; margin-left: 2%; text-align: center;
-	box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 25px; border:1px black; border-radius: 25px; margin-left: 2%; text-align: center;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .topArticle h2{
-	border-bottom: 1px solid grey;
-	width: 75%;
-	text-align: center;
-	margin-left: 10%;
-	margin-bottom: 5%;
+  border-bottom: 1px solid grey;
+  width: 75%;
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 5%;
 }
 
 .topArticle .berita{
-	margin-bottom: 8%;
+  margin-bottom: 8%;
 }
 
 .berita img {
-	max-width: 150px; height:auto;
+  max-width: 150px; height:auto;
 }
 .berita .judul{
-	margin-left: 6%; margin-top: 8%;
+  margin-left: 6%; margin-top: 8%;
 }
 
 .berita h6{
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .JudulSectionArtikel{
-	 float: left;
+   float: left;
 }
 
 .artikelTerbaru{
@@ -246,7 +250,7 @@ color: white; text-align: center; margin-top: 4%;
 }
 
 .judulArtikel{
-	margin: 5% 0;
+  margin: 5% 0;
 }
 .barisArtikelAtas{
 margin: 5% 0;
@@ -255,153 +259,153 @@ margin: 5% 0;
 
 
 @media screen and (max-width: 1100px) {
-	.barisArtikelAtas{
-		margin-left: 8%;
-	}
+  .barisArtikelAtas{
+    margin-left: 8%;
+  }
 
-	#carouselArticle .caption{
+  #carouselArticle .caption{
 color: white; text-align: center; margin-top: 4%; 
-	}
+  }
 
-	.boxHeadline{
-		margin-bottom: 10%;
-	}
+  .boxHeadline{
+    margin-bottom: 10%;
+  }
 
-	.topArticle{
-		margin-left:5%;
-	}
+  .topArticle{
+    margin-left:5%;
+  }
 
-	.berita img{
-		max-width: 250px;	
-		
-	}
-	.berita h6{
-		font-size: 25px;
-		font-weight: bold;
-		margin-left: 0;
-	}
+  .berita img{
+    max-width: 250px; 
+    
+  }
+  .berita h6{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 0;
+  }
 
-	#artikelBawah li{
-		
-	}
+  #artikelBawah li{
+    
+  }
 }
 
 
 /* ---------DAFTAR BOSQ---------*/
 .headSignUp {
-	background-color: #167c85;
-	height: 50%;
-	color: white;
-	text-align: center;
-	padding: 7%;
+  background-color: #167c85;
+  height: 50%;
+  color: white;
+  text-align: center;
+  padding: 7%;
 }
 #abu {
-	background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 #cardDaftar input,#cardDaftar select{
-	margin-left: 0%;
-	margin-bottom: 10%;
+  margin-left: 0%;
+  margin-bottom: 10%;
 }
 
 /*-----------PEMBAYARAN BOSQ-------*/
 
 .header{
-	background-color: #167c85;
-	height: 25%;
-	color: white;
-	text-align: left;
-	padding: 2%;
+  background-color: #167c85;
+  height: 25%;
+  color: white;
+  text-align: left;
+  padding: 2%;
 }
 .kontenPembayaran{
-	margin: 2% 0;
+  margin: 2% 0;
 
 
 }
 .kontenPembayaran h3, .kontenPembayaran input, .kontenPembayaran select{
-	margin:2% 0;
+  margin:2% 0;
 }
 
 .cardPembayaran{
-	border-radius: 25px; border:2px solid grey;
-	padding-bottom: 2%;
+  border-radius: 25px; border:2px solid grey;
+  padding-bottom: 2%;
 }
 
 .kontenDetail{
-	margin-top: 2%;
+  margin-top: 2%;
 }
 
 .kontenDetail h5{
-	border-bottom: 1px solid grey; margin-bottom: 5%; padding-bottom: 3%; 
+  border-bottom: 1px solid grey; margin-bottom: 5%; padding-bottom: 3%; 
 }
 
 .kontenDetail h6{
-	margin-top: 3%;
+  margin-top: 3%;
 }
 
 .kontenDetail img{
-	max-height: 150px; width: auto; margin-left: 3%;
+  max-height: 150px; width: auto; margin-left: 3%;
 }
 
 @media screen and (max-width: 1100px){
-	.kontenDetail img{
-		max-height: 110px;
-	}
-	.cardPembayaran{
-		margin-bottom: 10%;
-	}
-	}
+  .kontenDetail img{
+    max-height: 110px;
+  }
+  .cardPembayaran{
+    margin-bottom: 10%;
+  }
+  }
 
 /*  KERANJANG BOSQQ*/
 
 .indikatorKeranjang{
-	margin-top: 5%; margin-left: 3%; margin-right: 3%; margin-bottom: 1%;
+  margin-top: 5%; margin-left: 3%; margin-right: 3%; margin-bottom: 1%;
 }
 
 .kontenIndikatorKeranjang{
-	 margin-right: 2%; margin-bottom: 2%; background-color: #658a29; color: white;
+   margin-right: 2%; margin-bottom: 2%; background-color: #658a29; color: white;
 }
 
 .strukturKeranjang{
-	 margin-left: 3%; margin-right: 3%; margin-bottom: 1%; border: 1px solid grey;
+   margin-left: 3%; margin-right: 3%; margin-bottom: 1%; border: 1px solid grey;
 }
 
 .keranjangTengah{
-	margin-right: 2%; margin-bottom: 2%;
+  margin-right: 2%; margin-bottom: 2%;
 }
 
 .keranjangTengahPenjual{
-	padding: 1% 0; margin-bottom: 2%; border-bottom: 1px solid grey; background-color: #317e85;
+  padding: 1% 0; margin-bottom: 2%; border-bottom: 1px solid grey; background-color: #317e85;
 }
 
 .namaPenjualKeranjang{
-	margin-left: 2%; color: white; margin-top: 1%;
+  margin-left: 2%; color: white; margin-top: 1%;
 }
 
 .fotoProdukKeranjang{
-	max-width: 150px; height: auto;
+  max-width: 150px; height: auto;
 }
 
 .kontenKeranjangTengah{
-	margin-top: 3%;	
+  margin-top: 3%; 
 }
 
 .keranjangBawah{
-	margin: 3%;
+  margin: 3%;
 }
 
 .pengirimanProdukKeranjang{
-	border: 1px solid grey; border-radius: 5px; padding: 2%; margin-right: 2%;
+  border: 1px solid grey; border-radius: 5px; padding: 2%; margin-right: 2%;
 }
 
 .ringkasanPesananKeranjang{
-	border: 1px solid grey; border-radius: 5px; padding: 2%;
+  border: 1px solid grey; border-radius: 5px; padding: 2%;
 }
 
 .totalHargaKeranjang{
-	margin-left: 8%; color: #167c85;
+  margin-left: 8%; color: #167c85;
 }
 
 .buttonBuatPesananKeranjang{
-	padding: 2% 10%; border-radius: 10px; background-color: green; color: white; 
+  padding: 2% 10%; border-radius: 10px; background-color: green; color: white; 
 }
