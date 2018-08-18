@@ -171,6 +171,7 @@ body {
     .socialmedia{
     	text-align: center;
     	margin-bottom: 10%;
+    	
     }
 }
 
@@ -341,3 +342,57 @@ color: white; text-align: center; margin-top: 4%;
 		margin-bottom: 10%;
 	}
 	}
+
+/*  KERANJANG BOSQQ*/
+
+.indikatorKeranjang{
+	margin-top: 5%; margin-left: 3%; margin-right: 3%; margin-bottom: 1%;
+}
+
+.kontenIndikatorKeranjang{
+	 margin-right: 2%; margin-bottom: 2%; background-color: #658a29; color: white;
+}
+
+.strukturKeranjang{
+	 margin-left: 3%; margin-right: 3%; margin-bottom: 1%; border: 1px solid grey;
+}
+
+.keranjangTengah{
+	margin-right: 2%; margin-bottom: 2%;
+}
+
+.keranjangTengahPenjual{
+	padding: 1% 0; margin-bottom: 2%; border-bottom: 1px solid grey; background-color: #317e85;
+}
+
+.namaPenjualKeranjang{
+	margin-left: 2%; color: white; margin-top: 1%;
+}
+
+.fotoProdukKeranjang{
+	max-width: 150px; height: auto;
+}
+
+.kontenKeranjangTengah{
+	margin-top: 3%;	
+}
+
+.keranjangBawah{
+	margin: 3%;
+}
+
+.pengirimanProdukKeranjang{
+	border: 1px solid grey; border-radius: 5px; padding: 2%; margin-right: 2%;
+}
+
+.ringkasanPesananKeranjang{
+	border: 1px solid grey; border-radius: 5px; padding: 2%;
+}
+
+.totalHargaKeranjang{
+	margin-left: 8%; color: #167c85;
+}
+
+.buttonBuatPesananKeranjang{
+	padding: 2% 10%; border-radius: 10px; background-color: green; color: white; 
+}
