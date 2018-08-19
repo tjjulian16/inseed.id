@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  <link rel="icon" href="assets/image/icon/icon.png">
-  <title>inseed.id - Invest Seaweed in Indonesia</title>
+  <title>inseed.id - Tentang Kami</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styleCSS.css">
@@ -14,6 +14,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <script src="js/jcarousel.responsive.js"></script>
   <script src="js/jquery.jcarousel.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $("#loading").fadeOut("slow");
+});
+</script>
 </head>
 <body>
 <div id="loading"></div>
@@ -68,7 +74,7 @@
       <div class="row cyan-background">
         <div class="col-lg-12 col-xs-12">
           <div class="col-lg-4 col-sm-12 fitur-right-side">
-            <img src="Assets/Fakultas/logo_ub.png" class="fitur-img">
+            <img src="assets/image/invest.png" class="fitur-img">
           </div>
           <div class="col-lg-8 col-sm-12 fitur-left-side text-fitur-white">
             <h2 class="text-fitur-title">Seaweed Invest</h2>
@@ -79,7 +85,7 @@
       <div class="row white-background">
         <div class="col-lg-12 col-xs-12">
           <div class="col-lg-4 col-sm-12 fitur-left-side">
-            <img src="Assets/gembok.png" class="fitur-img">
+            <img src="assets/image/mart.png" class="fitur-img">
           </div>
           <div class="col-lg-8 col-sm-12 fitur-right-side text-fitur-cyan">
             <h2 class="text-fitur-title">Seaweed Mart</h2>
@@ -90,7 +96,7 @@
       <div class="row cyan-background">
           <div class="col-lg-12 col-xs-12">
             <div class="col-lg-4 col-sm-12 fitur-right-side">
-              <img src="Assets/Motor-Ojek.png" class="fitur-img">
+              <img src="assets/image/article.png" class="fitur-img">
             </div>
             <div class="col-lg-8 col-sm-12 fitur-left-side text-fitur-white">
               <h2 class="text-fitur-title">Seaweed Article</h2>
@@ -101,7 +107,7 @@
       <div class="row white-background">
           <div class="col-lg-12 col-xs-12">
             <div class="col-lg-4 col-sm-12 fitur-left-side">
-              <img src="Assets/home.png" class="fitur-img">
+              <img src="assets/image/user.png" class="fitur-img">
             </div>
             <div class="col-lg-8 col-sm-12 fitur-right-side text-fitur-cyan">
               <h2 class="text-fitur-title">Dashboard User</h2>
@@ -115,7 +121,7 @@
         <div class="container">
           <div class="row">
            <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 logo_footer">
-               <a href="index.php"><img src="assets/image/logo.png" style="width: 280px; height: auto;"></a>
+               <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style="width: 280px; height: auto;"></a>
                <h6 >Invest Seaweed in Indonesia</h6>
            </div>
         <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 contact" style="text-align: center; ">
