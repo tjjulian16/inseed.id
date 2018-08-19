@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
  <link rel="icon" href="assets/image/icon/icon.png">
-=======
- <link rel="icon" href="assets/image/icon.png">
->>>>>>> 9bc274f5f53845c5a928b2e97e7c0878505f56a5
   <title>inseed.id - Invest Seaweed in Indonesia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -22,17 +18,10 @@
 <body>
 <div id="loading"></div>
 <section id="header">
-<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
- <a href="index.php"><img src="assets/image/logo.png" style="  padding: 0 20px 0 20px;
+ <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style="  padding: 0 20px 0 20px;
     height: 75px;
     width: 250px;"></a>  
-=======
-<nav class="navbar navbar-expand-lg navbar-light bg-white" id="header">
- <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style="  padding: 0 20px 0 20px;
-    height: 50px;
-    width: 200px;"></a>  
->>>>>>> 9bc274f5f53845c5a928b2e97e7c0878505f56a5
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
