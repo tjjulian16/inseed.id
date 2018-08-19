@@ -1,8 +1,8 @@
  <!DOCTYPE html>
 <html>
 <head>
-   <link rel="icon" href="assets/image/logo.png">
-  <title>inseed.id -  Daftar</title>
+   <link rel="icon" href="assets/image/icon/icon.png">
+  <title>inseed.id -  Pembayaran</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styleCSS.css">
@@ -18,7 +18,7 @@
 
 <body>
   <section id="header">
-<nav class="navbar navbar-expand-lg navbar-light bg-white" id="header">
+<nav class="navbar navbar-expand-lg navbar-light bg-white" >
  <a href="index.php"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
     height: 75px;
     width: 250px;"></a> 

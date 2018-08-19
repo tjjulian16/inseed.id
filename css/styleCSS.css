@@ -7,14 +7,16 @@ body {
 /*navbar*/
 
 #header{
-    position: fixed; 
-    height: 60px;
+    position: sticky; 
+    height: 90px;
     top: 0;
     border-radius: 0;
     border: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 4px 5px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+
 }
 
 
@@ -285,9 +287,22 @@ color: white; text-align: center; margin-top: 4%;
     margin-left: 0;
   }
 
-  #artikelBawah li{
-    
-  }
+}
+
+@media screen and (max-width: 575px){
+	.barisArtikelAtas{
+		margin-left: 0%;
+	}
+	.boxHeadline{
+		margin-left: 2%;
+	}
+	.topArticle{
+		margin-left: 2%;
+	}
+	.articleSliding{
+		margin-left: 1%;
+
+	}
 }
 
 
@@ -386,6 +401,16 @@ color: white; text-align: center; margin-top: 4%;
   max-width: 150px; height: auto;
 }
 
+@media screen and (max-width: 575px){
+	.strukturKeranjang{
+		text-align: center;
+		margin-top: 5%;
+	}
+	.indikatorKeranjang{
+		display: none;
+	}
+}
+
 .kontenKeranjangTengah{
   margin-top: 3%; 
 }
@@ -396,6 +421,17 @@ color: white; text-align: center; margin-top: 4%;
 
 .pengirimanProdukKeranjang{
   border: 1px solid grey; border-radius: 5px; padding: 2%; margin-right: 2%;
+}
+
+@media screen and (max-width: 575px){
+	.pengirimanProdukKeranjang{
+		margin-right: 0%;
+		margin-bottom: 3%;
+	}
+
+	.buttonBuatPesananKeranjang{
+		margin-left: 25%;
+	}
 }
 
 .ringkasanPesananKeranjang{
