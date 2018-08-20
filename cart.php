@@ -14,6 +14,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <script src="js/jcarousel.responsive.js"></script>
   <script src="js/jquery.jcarousel.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $("#loading").fadeOut("slow");
+});
+</script>
 </head>
 
 <body>
