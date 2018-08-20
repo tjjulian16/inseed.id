@@ -23,7 +23,7 @@ $(window).load(function() {
 </head>
 
 <body>
- 
+ <div id="loading"></div>
   <section id="header">
 <nav class="navbar navbar-expand-lg navbar-light bg-white" >
  <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
