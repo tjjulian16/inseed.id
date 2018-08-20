@@ -2,7 +2,7 @@
 <html>
 <head>
    <link rel="icon" href="assets/image/icon/icon.png">
-  <title>inseed.id -  Keranjang</title>
+  <title>inseed.id - Keranjang</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styleCSS.css">
@@ -17,9 +17,10 @@
 </head>
 
 <body>
+ <div id="loading"></div>
   <section id="header">
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
- <a href="index.php"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
+ <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
     height: 75px;
     width: 250px;"></a> 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,22 +31,22 @@
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{URL::to('welcome')}}">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">SEAWEED INVEST</a>
+        <a class="nav-link" href="{{URL::to('invest')}}">SEAWEED INVEST</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">SEAWEED MART</a>
+        <a class="nav-link" href="{{URL::to('mart')}}">SEAWEED MART</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="article.php">SEAWEED ARTICLE</a>
+        <a class="nav-link" href="{{URL::to('article')}}">SEAWEED ARTICLE</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="about_us.php">TENTANG KAMI</a>
+        <a class="nav-link" href="{{URL::to('about_us')}}">TENTANG KAMI</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="login.php">MASUK</a>
+        <a class="nav-link" href="{{URL::to('login')}}">MASUK</a>
       </li>
     </ul>
   </div>
@@ -137,7 +138,7 @@
         <div class="container">
           <div class="row">
            <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 logo_footer">
-               <a href="index.php"><img src="assets/image/logo.png" style="width: 280px; height: auto;"></a>
+               <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style="width: 280px; height: auto;"></a>
                <h6 >Invest Seaweed in Indonesia</h6>
            </div>
         <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 contact" style="text-align: center; ">
