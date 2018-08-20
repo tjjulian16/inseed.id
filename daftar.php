@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="icon" href="assets/image/logo.png">
+   <link rel="icon" href="assets/image/icon/icon.png">
   <title>inseed.id -  Daftar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -14,12 +14,19 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <script src="js/jcarousel.responsive.js"></script>
   <script src="js/jquery.jcarousel.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $("#loading").fadeOut("slow");
+});
+</script>
 </head>
 
 <body>
+<div id="loading"></div>
   <section id="header">
-<nav class="navbar navbar-expand-lg navbar-light bg-white" id="header">
- <a href="index.php"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
+<nav class="navbar navbar-expand-lg navbar-light bg-white" >
+ <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
     height: 75px;
     width: 250px;"></a> 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,56 +37,75 @@
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{URL::to('welcome')}}">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">SEAWEED INVEST</a>
+        <a class="nav-link" href="{{URL::to('invest')}}">SEAWEED INVEST</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">SEAWEED MART</a>
+        <a class="nav-link" href="{{URL::to('mart')}}">SEAWEED MART</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="article.php">SEAWEED ARTICLE</a>
+        <a class="nav-link" href="{{URL::to('article')}}">SEAWEED ARTICLE</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="about_us.php">TENTANG KAMI</a>
+        <a class="nav-link" href="{{URL::to('about_us')}}">TENTANG KAMI</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="login.php">MASUK</a>
+        <a class="nav-link" href="{{URL::to('login')}}">MASUK</a>
       </li>
     </ul>
   </div>
 </nav>
   </section>
 
-  <section id="signup Page" >
+   <section id="signup Page" >
   <div class="headSignUp">
   <h1>YUK GABUNG KITA SEKARANG!</h1>
   <h5>Daftarkan akun anda secara gratis!</h5>
   </div>
-  
-    
 <div class = "container">
   <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12" style="margin: 10% auto;">
   <div class ="card" id="cardDaftar">
     <div class="card-body" id="abu">
         <h5 style="text-align: center;">Hai, masukkan data pada kolom tersedia!</h5><br>
         <form action="insert.php" method="POST" class="col-md-12 col-sm-12 col-xs-12" style="float: left;">
-  <div class="form-group" >
-    <input type="text" class="form-control" placeholder="Nama Depan" name="firstname" >
-    <input type="text" class="form-control" placeholder="Nama Belakang" name="lastname">
+  <div class="form-group">
+  <input type="text" id="firstnane" class="form-control" required pattern="[a-zA-Z]"
+  oninvalid="this.setCustomValidity('Data tidak boleh kosong dan hanya boleh berisi abjad')" oninput="setCustomValidity('')">
+  <label class="form-control-placeholder-1" for="firstname">Nama depan</label>
+  </div>
+  <div class="form-group">
+  <input type="text" id="laststname" class="form-control" required pattern="[a-zA-Z]"
+  oninvalid="this.setCustomValidity('Data tidak boleh kosong dan hanya boleh berisi abjad')" oninput="setCustomValidity('')">
+  <label class="form-control-placeholder-1" for="lastname">Nama belakang</label>
+  </div>
 	<input type="date" class="form-control" name="birthday" min="1980-01-01" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"/>
-
       <select class="form-control" id="JenisKelamin">
       <option value="Pria">Pria</option>
       <option value="Wanita">Wanita</option>
    </select>
-
-	<input type="text" class="form-control" placeholder="Nama Akun" name="account" >
-	<input type="email" class="form-control" placeholder="Email" name="email" >
-    <input type="password" class="form-control" placeholder="Password" name="password" id="pw1">
-	<input type="password" class="form-control" placeholder="Ulangi Password" name="password2" id="pw2">
-	  <script type="text/javascript">
+   <div class="form-group">
+  <input type="text" id="account" class="form-control" pattern="^[A-Za-z0-9_]{1,15}$" maxlenght="15" required
+  oninvalid="this.setCustomValidity('Data tidak boleh kosong atau mengandung spasi')" oninput="setCustomValidity('')">
+  <label class="form-control-placeholder-1" for="account">Nama akun</label>
+  </div>
+  <div class="form-group">
+  <input type="email" id="email" class="form-control" pattern="[^ @]*@[^ @]*.[a-zA-Z]{2,}" required
+  oninvalid="this.setCustomValidity('Data tidak boleh kosong')" oninput="setCustomValidity('')">
+  <label class="form-control-placeholder-1" for="account">Email</label>
+  </div>
+  <div class="form-group">
+  <input type="password" id="pw1" class="form-control" required minlength="8"
+  oninvalid="this.setCustomValidity('Data tidak boleh kosong')" oninput="setCustomValidity('')">
+  <label class="form-control-placeholder-1" for="account">Password</label>
+  </div>
+  <div class="form-group">
+  <input type="password" id="pw2" class="form-control" required minlength="8"
+  oninvalid="this.setCustomValidity('Data tidak boleh kosong')" oninput="setCustomValidity('')">
+  <label class="form-control-placeholder-1" for="account">Ulangi Password</label>
+  </div>
+  <script type="text/javascript">
     window.onload = function () {
         document.getElementById("pw1").onchange = validatePassword;
         document.getElementById("pw2").onchange = validatePassword;
@@ -94,14 +120,15 @@
         document.getElementById("pw2").setCustomValidity('');
     }
 </script>
-
-    <input type="text" class="form-control" placeholder="No. Handphone" name="phone">
+<div class="form-group">
+  <input type="tel" id="phone" class="form-control" pattern="[0-9]+" required minlength="8" maxlenght="13"
+  oninvalid="this.setCustomValidity('Input hanya boleh angka!')" oninput="setCustomValidity('')">
+  <label class="form-control-placeholder-1" for="account">No. Handphone</label>
+  </div>
 	<p style="text-align: justify;">Dengan menekan Daftar Sekarang, saya mengonfirmasi telah menyetujui <a href="#">Syarat dan Ketentuan</a>, serta <a href="#">Kebijakan Privasi</a> inseed.id</p>
-  <div class="col-xl-12 col-md-12 col-xs-12 col-sm-12" style="text-align: center;"> 
-
+  <div class="col-xl-12 col-md-12 col-xs-12 col-sm-12" style="text-align: center;">
          <button type="submit" class="btn btn-outline-primary" style="padding: 2% 20%; margin: 5% 0">DAFTAR SEKARANG</button>
 </div>
-
   </div>
 </div>
 </div>

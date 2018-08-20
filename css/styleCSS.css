@@ -6,8 +6,9 @@ body {
 
 /*navbar*/
 
-.navbar{
-    position: sticky;
+#header{
+    position: fixed; 
+    height: 60px;
     top: 0;
     border-radius: 0;
     border: 0;
