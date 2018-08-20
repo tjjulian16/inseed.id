@@ -64,7 +64,7 @@ $(window).load(function() {
 </nav>
   </section>
 
-  <section id="login Page" >
+<section id="login Page" >
     
 <div class = "container">
   <div class="col-md-6 col-sm-12 col-xs-12" style="margin: 10% auto;">
@@ -72,10 +72,17 @@ $(window).load(function() {
     <div class="card-body">
         <h2 style="text-align: center;">Masuk Ke inseed.id</h2>
         <form action="insert.php" method="POST" class="col-md-10 col-sm-10 col-xs-10" style="float: left;">
-  <div class="form-group" >
-    <input type="email" class="form-control" placeholder="Email" name="email" >
-    <input type="password" class="form-control" placeholder="Password" name="password">
-  </div>
+  <div class="form-group">
+        <input type="text" id="email" class="form-control" required>
+        <label class="form-control-placeholder" for="email">Email</label>
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" class="form-control" required>
+        <label class="form-control-placeholder" for="password">Password</label>
+      </div>
+
+  
+  
   <button type="submit" class="btn btn-outline-primary">Masuk</button>
 </form>
 
