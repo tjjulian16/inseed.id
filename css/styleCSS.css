@@ -7,14 +7,16 @@ body {
 /*navbar*/
 
 #header{
-    position: fixed; 
-    height: 60px;
+    position: sticky; 
+    height: 90px;
     top: 0;
     border-radius: 0;
     border: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 4px 5px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+
 }
 
 
@@ -43,42 +45,6 @@ body {
   margin-bottom: 5%;
 }
 
-.form-group {
-  position: relative;
-  margin-bottom: 1.5rem;
-}
-
-.form-control-placeholder {
-  position: absolute;
-  top: 0;
-  padding: 7px 0 0 13px;
-  transition: all 200ms;
-  opacity: 0.5;
-  margin-left: 2em;
-}
-
-
-.form-control-placeholder-1 {
-  position: absolute;
-  top: 0;
-  padding: 7px 0 0 13px;
-  transition: all 200ms;
-  opacity: 0.5;
-}
-
-.form-control:focus + .form-control-placeholder,
-.form-control:valid + .form-control-placeholder {
-  font-size: 75%;
-  transform: translate3d(0, -100%, 0);
-  opacity: 1;
-}
-
-.form-control:focus + .form-control-placeholder-1,
-.form-control:valid + .form-control-placeholder-1 {
-  font-size: 75%;
-  transform: translate3d(0, -100%, 0);
-  opacity: 1;
-}
 @media screen and (max-width: 1100px){
   #cardLogin h2,input{
   margin-bottom: 5%;
@@ -321,9 +287,22 @@ color: white; text-align: center; margin-top: 4%;
     margin-left: 0;
   }
 
-  #artikelBawah li{
-    
-  }
+}
+
+@media screen and (max-width: 575px){
+	.barisArtikelAtas{
+		margin-left: 0%;
+	}
+	.boxHeadline{
+		margin-left: 2%;
+	}
+	.topArticle{
+		margin-left: 2%;
+	}
+	.articleSliding{
+		margin-left: 1%;
+
+	}
 }
 
 
@@ -422,6 +401,16 @@ color: white; text-align: center; margin-top: 4%;
   max-width: 150px; height: auto;
 }
 
+@media screen and (max-width: 575px){
+	.strukturKeranjang{
+		text-align: center;
+		margin-top: 5%;
+	}
+	.indikatorKeranjang{
+		display: none;
+	}
+}
+
 .kontenKeranjangTengah{
   margin-top: 3%; 
 }
@@ -434,6 +423,17 @@ color: white; text-align: center; margin-top: 4%;
   border: 1px solid grey; border-radius: 5px; padding: 2%; margin-right: 2%;
 }
 
+@media screen and (max-width: 575px){
+	.pengirimanProdukKeranjang{
+		margin-right: 0%;
+		margin-bottom: 3%;
+	}
+
+	.buttonBuatPesananKeranjang{
+		margin-left: 25%;
+	}
+}
+
 .ringkasanPesananKeranjang{
   border: 1px solid grey; border-radius: 5px; padding: 2%;
 }
@@ -444,4 +444,64 @@ color: white; text-align: center; margin-top: 4%;
 
 .buttonBuatPesananKeranjang{
   padding: 2% 10%; border-radius: 10px; background-color: green; color: white; 
+}
+
+
+/* -----SEAWEED MART BOSQ---------*/
+
+/* Style the search field */
+form.searchProduk input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 35%;
+  background: #fff;
+}
+
+/* Style the submit button */
+form.searchProduk button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #12a8bb;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.searchProduk button:hover {
+  background: #0f96a8;
+}
+
+/* Clear floats */
+form.searchProduk::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 425px){
+  form.searchProduk input[type=text] {
+  width: 85%;
+}
+
+/* Style the submit button */
+form.searchProduk button {
+  width: 12%;
+}
+}
+
+.produkSeaweedMart{
+   
+   margin-top: 2%;
+   margin-left: 5%;
+   margin-right: 2%;
+   margin-bottom: 3%;
+}
+
+.paginationProduk a{
+  color: #167c85;
 }
