@@ -63,79 +63,90 @@ $(window).load(function() {
       <h2>Seaweed <b>Market</b></h2>
 </div>
 <div class="container-fluid">
-  <form class="searchProduk" action="searchProduk.php" style="margin: 2% 0;">
-  <input type="text" placeholder="Cari Produk" name="cari">
-  <button type="submit"><i class="fa fa-search"></i></button>
+  <form class="form-wrapper">
+    <input type="text" id="search" placeholder="Cari Produk" required>
+    <input type="submit" value="Cari" id="submit">
 </form>
 
 <div class="row">
   <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
-    <div class="card">
-  <img class="card-img-top" src="assets/image/produk/produk3.jpg" alt="Card image cap">
+    <div class="card cardProduk">
+  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
   <div class="card-body" style="text-align: center;">
-    <h5 class="card-title" style="font-weight: bold">Dodol Rumput Laut</h5>
-        <p class="card-text"><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
-    <p class="card-text" style="color: green">Rp100.000</span></p>
+    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
+        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
+    <p class="card-text hargaProduk">Rp 100.000</span></p>
 
-    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
-  </div>
-</div>
-  </div>
-
- <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
-    <div class="card">
-  <img class="card-img-top" src="assets/image/produk/produk3.jpg" alt="Card image cap">
-  <div class="card-body" style="text-align: center;">
-    <h5 class="card-title">Dodol Rumput Laut</h5>
-    <p class="card-text">Dodol rumput laut yang sangat enak enak pol, klik button ini untuk liat lebih lanjut</p>
-    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
-  </div>
-</div>
-  </div>
-
- <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
-    <div class="card">
-  <img class="card-img-top" src="assets/image/produk/produk3.jpg" alt="Card image cap">
-  <div class="card-body" style="text-align: center;">
-    <h5 class="card-title">Dodol Rumput Laut</h5>
-    <p class="card-text">Dodol rumput laut yang sangat enak enak pol, klik button ini untuk liat lebih lanjut</p>
     <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
 </div>
   </div>
 
    <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
-    <div class="card">
-  <img class="card-img-top" src="assets/image/produk/produk3.jpg" alt="Card image cap">
+    <div class="card cardProduk">
+  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
   <div class="card-body" style="text-align: center;">
-    <h5 class="card-title">Dodol Rumput Laut</h5>
-    <p class="card-text">Dodol rumput laut yang sangat enak enak pol, klik button ini untuk liat lebih lanjut</p>
+    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
+        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
+    <p class="card-text hargaProduk">Rp 100.000</span></p>
+
     <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
 </div>
   </div>
 
-   <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
-    <div class="card">
-  <img class="card-img-top" src="assets/image/produk/produk3.jpg" alt="Card image cap">
+    <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
+    <div class="card cardProduk">
+  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
   <div class="card-body" style="text-align: center;">
-    <h5 class="card-title">Dodol Rumput Laut</h5>
-    <p class="card-text">Dodol rumput laut yang sangat enak enak pol, klik button ini untuk liat lebih lanjut</p>
+    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
+        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
+    <p class="card-text hargaProduk">Rp 100.000</span></p>
+
     <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
 </div>
   </div>
 
-   <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
-    <div class="card">
-  <img class="card-img-top" src="assets/image/produk/produk3.jpg" alt="Card image cap">
+     <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
+    <div class="card cardProduk">
+  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
   <div class="card-body" style="text-align: center;">
-    <h5 class="card-title">Dodol Rumput Laut</h5>
-    <p class="card-text">Dodol rumput laut yang sangat enak enak pol, klik button ini untuk liat lebih lanjut</p>
+    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
+        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
+    <p class="card-text hargaProduk">Rp 100.000</span></p>
+
     <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
 </div>
   </div>
+
+     <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
+    <div class="card cardProduk">
+  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
+  <div class="card-body" style="text-align: center;">
+    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
+        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
+    <p class="card-text hargaProduk">Rp 100.000</span></p>
+
+    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
+  </div>
+</div>
+  </div>
+
+    <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
+    <div class="card cardProduk">
+  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
+  <div class="card-body" style="text-align: center;">
+    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
+        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
+    <p class="card-text hargaProduk">Rp 100.000</span></p>
+
+    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
+  </div>
+</div>
+  </div>
+  
 </div>
  <div class="paginationProduk">
    <nav>
