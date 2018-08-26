@@ -71,39 +71,45 @@ $(window).load(function() {
         <h5 style="text-align: center;">Hai, masukkan data pada kolom tersedia!</h5><br>
         <form action="insert.php" method="POST" class="col-md-12 col-sm-12 col-xs-12" style="float: left;">
   <div class="form-group">
+     <label class="form-control-placeholder-1" for="firstname">Nama depan</label>
   <input type="text" id="firstnane" class="form-control" required pattern="[a-zA-Z]"
   oninvalid="this.setCustomValidity('Data tidak boleh kosong dan hanya boleh berisi abjad')" oninput="setCustomValidity('')">
-  <label class="form-control-placeholder-1" for="firstname">Nama depan</label>
   </div>
   <div class="form-group">
+    <label class="form-control-placeholder-1" for="lastname">Nama belakang</label>
   <input type="text" id="laststname" class="form-control" required pattern="[a-zA-Z]"
   oninvalid="this.setCustomValidity('Data tidak boleh kosong dan hanya boleh berisi abjad')" oninput="setCustomValidity('')">
-  <label class="form-control-placeholder-1" for="lastname">Nama belakang</label>
   </div>
+  <div class="form-group">
+    <label class="form-control-placeholder-1" for="Tgl_lahir">Tanggal Lahir</label>
 	<input type="date" class="form-control" name="birthday" min="1980-01-01" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"/>
+</div>
+<label class="form-control-placeholder-1" for="JK">Jenis Kelamin</label>
       <select class="form-control" id="JenisKelamin">
       <option value="Pria">Pria</option>
       <option value="Wanita">Wanita</option>
    </select>
    <div class="form-group">
+    <label class="form-control-placeholder-1" for="account">Nama akun</label>
   <input type="text" id="account" class="form-control" pattern="^[A-Za-z0-9_]{1,15}$" maxlenght="15" required
   oninvalid="this.setCustomValidity('Data tidak boleh kosong atau mengandung spasi')" oninput="setCustomValidity('')">
-  <label class="form-control-placeholder-1" for="account">Nama akun</label>
   </div>
   <div class="form-group">
+      <label class="form-control-placeholder-1" for="account">Email</label>
   <input type="email" id="email" class="form-control" pattern="[^ @]*@[^ @]*.[a-zA-Z]{2,}" required
   oninvalid="this.setCustomValidity('Data tidak boleh kosong')" oninput="setCustomValidity('')">
-  <label class="form-control-placeholder-1" for="account">Email</label>
   </div>
   <div class="form-group">
+    <label class="form-control-placeholder-1" for="account">Password</label>
   <input type="password" id="pw1" class="form-control" required minlength="8"
   oninvalid="this.setCustomValidity('Data tidak boleh kosong')" oninput="setCustomValidity('')">
-  <label class="form-control-placeholder-1" for="account">Password</label>
+  
   </div>
   <div class="form-group">
+    <label class="form-control-placeholder-1" for="account">Ulangi Password</label>
   <input type="password" id="pw2" class="form-control" required minlength="8"
   oninvalid="this.setCustomValidity('Data tidak boleh kosong')" oninput="setCustomValidity('')">
-  <label class="form-control-placeholder-1" for="account">Ulangi Password</label>
+  
   </div>
   <script type="text/javascript">
     window.onload = function () {
@@ -121,11 +127,12 @@ $(window).load(function() {
     }
 </script>
 <div class="form-group">
+  <label class="form-control-placeholder-1" for="account">No. Handphone</label> 
   <input type="tel" id="phone" class="form-control" pattern="[0-9]+" required minlength="8" maxlenght="13"
   oninvalid="this.setCustomValidity('Input hanya boleh angka!')" oninput="setCustomValidity('')">
-  <label class="form-control-placeholder-1" for="account">No. Handphone</label>
+  
   </div>
-	<p style="text-align: justify;">Dengan menekan Daftar Sekarang, saya mengonfirmasi telah menyetujui <a href="#">Syarat dan Ketentuan</a>, serta <a href="#">Kebijakan Privasi</a> inseed.id</p>
+	<p style="text-align: justify;">Dengan menekan Daftar Sekarang, saya mengonfirmasi telah menyetujui <a href="#" style="color: #12a8bb;">Syarat dan Ketentuan</a>, serta <a href="#" style="color: #12a8bb;">Kebijakan Privasi</a> inseed.id</p>
   <div class="col-xl-12 col-md-12 col-xs-12 col-sm-12" style="text-align: center;">
          <button type="submit" class="btn btn-outline-primary" style="padding: 2% 20%; margin: 5% 0">DAFTAR SEKARANG</button>
 </div>

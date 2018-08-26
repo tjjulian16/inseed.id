@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
- <link rel="icon" href="assets/image/icon.png">
+ <link rel="icon" href="assets/image/icon/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/jcarousel.responsive.css">
@@ -71,8 +71,39 @@
   </div>
 </nav>
   </section>
-	
-    <header class="masthead text-center d-flex">
+	<section id="headerHome">     
+  <div class="carousel slide" id="controlCarousel" data-ride="carousel" >
+  <div class="carousel-inner" style="width: 100%; text-align: center; ">
+    <div class="carousel-item active carousel-item-1">
+      <h1 class="text-uppercase text-white" ><strong>Tahukah anda?</strong></h1>
+      <p class="text-faded text-white mb-5">Potensi rumput laut yang dimiliki Bangsa Indonesia?</p>
+      <a href="#" class="shiny-btn" >Fakta Rumput Laut</a> <!-- INI HARUSNYA NGELINK KE SECTION FAKTA2 RUMPUT LAUT, kasih animasi-->
+    </div>
+     <div class="carousel-item carousel-item-2">
+      <h1 class="text-uppercase text-white" ><strong>inseed.id</strong></h1>
+      <p class="text-faded text-white mb-5">Invest Seaweed in Indonesia</p>
+      <a href="#" class="shiny-btn" >Who Are We?</a> <!-- INI HARUSNYA NGELINK KE SECTION INSEED.ID, kasih animasi-->
+    </div>
+     <div class="carousel-item carousel-item-3">
+      <h1 class="text-uppercase text-white" ><strong>OUR FEATURES</strong></h1>
+      <p class="text-faded text-white mb-5">Ingin tau layanan yang ada di inseed.id? </p>
+      <a href="#" class="shiny-btn" >Layanan kami</a> <!-- INI HARUSNYA NGELINK KE SECTION FITUR KITA, kasih animasi-->
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#controlCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#controlCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+ 
+  </section>
+
+
+ <!--<header class="masthead text-center d-flex">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -85,7 +116,10 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
+   
+  
+  
 	
 	<section id="services" style="padding-top: 60px;padding-bottom: 40px">
       <div class="container">

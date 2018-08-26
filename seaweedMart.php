@@ -119,7 +119,7 @@ $(window).load(function() {
     <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
 </div>
-  </div>
+  </div> 
 
      <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
     <div class="card cardProduk">
@@ -146,7 +146,7 @@ $(window).load(function() {
   </div>
 </div>
   </div>
-  
+
 </div>
  <div class="paginationProduk">
    <nav>
