@@ -19,6 +19,78 @@ body {
 
 }
 
+/* home */
+header.masthead h1{
+	font-size:2rem}
+header.masthead p{
+	font-weight:300}
+.section-heading {
+	margin-top:0
+}
+a {
+	color:white;
+	-webkit-transition:all .2s;
+	-moz-transition:all .2s;
+	transition:all .2s
+}
+header.masthead{
+	background-image:url(../assets/image/header.jpg);
+	background-position:center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover}
+header.masthead h1{
+	font-size:2rem}
+header.masthead p{
+	font-weight:300}
+	@media (min-width:768px){
+	
+	header.masthead p{
+		font-size:1.15rem}}
+@media (min-width:992px){
+	header.masthead{
+		height:50vh;
+		min-height:550px;
+		padding-top:0;
+		padding-bottom:0}
+		header.masthead h1{
+	font-size:4rem}}
+.service-box{
+	max-width:400px}
+.text-primary{
+		color:#317e85!important
+	}
+	.btn{
+		font-weight:700;
+		text-transform:uppercase;
+		border:none;
+		border-radius:300px;
+	}
+	.btn-xl{
+		padding:1rem 2rem}
+	.btn-primary{
+		background-color:white;
+		border-color:#317e85}
+	.btn-primary:active,.btn-primary:focus,.btn-primary:hover{
+		color:white;
+		background-color:#e3ede9!important}
+	.btn-primary:active,.btn-primary:focus{
+		box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important}
+		
+/*fix here*/
+a:hover {
+	color:#317e85
+}
+.bg-primary {
+	background-color:#317e85!important
+}
+.bg-dark {
+	background-color:#212529!important
+}
+.text-faded {
+	color:rgba(255,255,255,.7)
+}
 
 /*----------------LOGIN PAGE BOSQ--------------*/
 
