@@ -613,12 +613,17 @@ color: white; text-align: center; margin-top: 4%;
   font-weight: bold;
 }
 
-.hargaProduk{
-  color: green;
-}
 
 .cardProduk {
    border-radius: 25px; 
+}
+
+.cardProduk i{
+  margin-right: 3%;
+}
+
+.cardProduk span{
+  color: green;
 }
 
 .fotoProduk{
@@ -627,6 +632,16 @@ color: white; text-align: center; margin-top: 4%;
 
 .buttonProdukInvest{
   padding: 4% 20%;
+}
+
+.judulSeaweedMart h2, .judulSeaweedMart{
+  text-align: center;
+   margin-top: 4%;
+   font-weight: bold;
+}
+
+.judulSeaweedMart hr{
+  border-top: 8px solid green; width: 20%;
 }
 
 .form-wrapper {
@@ -737,3 +752,22 @@ color: white; text-align: center; margin-top: 4%;
   border: 0;
 }
 
+
+
+/*  ------------SEAWEED INVEST BOSQ----------*/
+
+.filterProyek i{
+margin-right: 2%;
+}
+
+.cardInvest{
+  text-align: center; padding: 0; padding-top: 1.25rem;
+}
+
+.cardInvest span{
+  color: #658a29;
+}
+
+.bagianDanaInvest{
+  background-color: #f8f7f0; padding-bottom: 6%; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; padding-top: 6%;
+}

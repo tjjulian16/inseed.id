@@ -63,10 +63,15 @@ $(window).load(function() {
       <h2>Seaweed <b>Market</b></h2>
 </div>
 <div class="container-fluid">
-  <form class="form-wrapper">
+<div class="judulSeaweedMart">
+    <h2>Cari produk rumput laut  yang kamu inginkan</h2>
+    <hr>
+</div>
+ <form class="form-wrapper">
     <input type="text" id="search" placeholder="Cari Produk" required>
     <input type="submit" value="Cari" id="submit">
 </form>
+  
 
 <div class="row">
   <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
@@ -74,8 +79,37 @@ $(window).load(function() {
   <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
   <div class="card-body" style="text-align: center;">
     <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
-        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
-    <p class="card-text hargaProduk">Rp 100.000</span></p>
+        <p class="card-text "><i class="fas fa-store" ></i>Toko <span >Bu Marji</span></p>
+         <p class="card-text "><i class="fas fa-box-open"></i>Stok : <span >25 pcs</span></p>
+    <p class="card-text "><i class="fas fa-money-bill-alt" ></i><span   > Rp 100.000</span></p>
+
+    <a href="#" class="btn btn-success buttonProdukInvest"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
+  </div>
+</div>
+  </div>
+
+  <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
+    <div class="card cardProduk">
+  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
+  <div class="card-body" style="text-align: center;">
+    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
+        <p class="card-text "><i class="fas fa-store" ></i>Toko <span >Bu Marji</span></p>
+         <p class="card-text "><i class="fas fa-box-open"></i>Stok : <span >25 pcs</span></p>
+    <p class="card-text "><i class="fas fa-money-bill-alt" ></i><span   > Rp 100.000</span></p>
+
+    <a href="#" class="btn btn-success buttonProdukInvest"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
+  </div>
+</div>
+  </div>
+
+  <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
+    <div class="card cardProduk">
+  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
+  <div class="card-body" style="text-align: center;">
+    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
+        <p class="card-text "><i class="fas fa-store" ></i>Toko <span >Bu Marji</span></p>
+         <p class="card-text "><i class="fas fa-box-open"></i>Stok : <span >25 pcs</span></p>
+    <p class="card-text "><i class="fas fa-money-bill-alt" ></i><span   > Rp 100.000</span></p>
 
     <a href="#" class="btn btn-success buttonProdukInvest"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
@@ -87,62 +121,39 @@ $(window).load(function() {
   <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
   <div class="card-body" style="text-align: center;">
     <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
-        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
-    <p class="card-text hargaProduk">Rp 100.000</span></p>
+        <p class="card-text "><i class="fas fa-store" ></i>Toko <span >Bu Marji</span></p>
+         <p class="card-text "><i class="fas fa-box-open"></i>Stok : <span >25 pcs</span></p>
+    <p class="card-text "><i class="fas fa-money-bill-alt" ></i><span   > Rp 100.000</span></p>
 
-    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
+    <a href="#" class="btn btn-success buttonProdukInvest"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
 </div>
   </div>
 
-    <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
+  <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
     <div class="card cardProduk">
   <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
   <div class="card-body" style="text-align: center;">
     <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
-        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
-    <p class="card-text hargaProduk">Rp 100.000</span></p>
+        <p class="card-text "><i class="fas fa-store" ></i>Toko <span >Bu Marji</span></p>
+         <p class="card-text "><i class="fas fa-box-open"></i>Stok : <span >25 pcs</span></p>
+    <p class="card-text "><i class="fas fa-money-bill-alt" ></i><span   > Rp 100.000</span></p>
 
-    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
+    <a href="#" class="btn btn-success buttonProdukInvest"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
 </div>
   </div>
 
-     <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
+   <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
     <div class="card cardProduk">
   <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
   <div class="card-body" style="text-align: center;">
     <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
-        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
-    <p class="card-text hargaProduk">Rp 100.000</span></p>
+        <p class="card-text "><i class="fas fa-store" ></i>Toko <span >Bu Marji</span></p>
+         <p class="card-text "><i class="fas fa-box-open"></i>Stok : <span >25 pcs</span></p>
+    <p class="card-text "><i class="fas fa-money-bill-alt" ></i><span   > Rp 100.000</span></p>
 
-    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
-  </div>
-</div>
-  </div> 
-
-     <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
-    <div class="card cardProduk">
-  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
-  <div class="card-body" style="text-align: center;">
-    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
-        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
-    <p class="card-text hargaProduk">Rp 100.000</span></p>
-
-    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
-  </div>
-</div>
-  </div>
-
-    <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
-    <div class="card cardProduk">
-  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
-  <div class="card-body" style="text-align: center;">
-    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
-        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
-    <p class="card-text hargaProduk">Rp 100.000</span></p>
-
-    <a href="#" class="btn btn-success"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
+    <a href="#" class="btn btn-success buttonProdukInvest"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
   </div>
 </div>
   </div>
