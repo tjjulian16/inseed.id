@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  <link rel="icon" href="assets/image/icon/icon.png">
-  <title>inseed.id - Seaweed Mart</title>
+  <title>inseed.id - Seaweed Invest</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styleCSS.css">
@@ -60,24 +60,30 @@ $(window).load(function() {
 
 <section id="etalase">
    <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 header">
-      <h2>Seaweed <b>Market</b></h2>
+      <h2>Seaweed <b>Invest</b></h2>
 </div>
 <div class="container-fluid">
-  <form class="form-wrapper">
-    <input type="text" id="search" placeholder="Cari Produk" required>
-    <input type="submit" value="Cari" id="submit">
-</form>
 
 <div class="row">
   <div class="col-xl-3 col-md-5 col-sm-5 col-xs-12 produkSeaweedMart">
     <div class="card cardProduk">
-  <img class="card-img-top fotoProduk" src="assets/image/produk/produk3.jpg" alt="Card image cap">
-  <div class="card-body" style="text-align: center;">
-    <h5 class="card-title judulProduk">Dodol Rumput Laut</h5>
-        <p class="card-text "><i class="fas fa-store" style="margin-right: 3%;"></i>Toko Bu Marji</p>
-    <p class="card-text hargaProduk">Rp 100.000</span></p>
+  <img class="card-img-top fotoProduk" src="assets/image/petani/petani1.jpg" alt="Card image cap">
+  <div class="card-body" style="text-align: center; padding: 0; padding-top: 1.25rem;">
+    <h5 class="card-title " style="font-weight: bold; ">Proyek Sumenep</h5>
+    <p class="card-text ">Expektasi Keuntungan : <span style="color: #658a29;">15%</span></p>
+      <p class="card-text ">Lama Proyek : <span style="color: #658a29;">60 Hari</span></p>
+        <p class="card-text ">Penanggung Jawab : <span style="color: #658a29;">Pak Tedjo Hadi</span></p>
+          <p class="card-text ">Lokasi : <span style="color: #658a29;">Sumenep, Jawa Timur</span></p>
+          <div class="bagianDanaInvest" style="background-color: #f8f7f0; padding-bottom: 6%; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; padding-top: 6%;">
+            <div class="progress" style="margin-bottom: 8%;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">75%</div>
 
-    <a href="#" class="btn btn-success buttonProdukInvest"><i class="fas fa-shopping-cart"></i> Lihat Detail</a>
+            </div>
+            <p class="card-text ">Dana Terkumpul :<span style="color: #658a29;">Rp 25.932.150</span></p>
+                <p class="card-text ">Target Dana:<span style="color: #658a29;">Rp 30.000.000</span></p>
+                    <p class="card-text ">Sisa Waktu :<span style="color: #658a29;">10 Hari</span></p>
+                    <a href="#" class="btn btn-info buttonProdukInvest">Modali</a>
+          </div>
   </div>
 </div>
   </div>

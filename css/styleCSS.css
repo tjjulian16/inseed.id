@@ -59,7 +59,7 @@ body {
 }
 
 .carousel-item-2{
-  background:url(../assets/image/header.jpg);  
+  background:url(../assets/image/petani/bg.jpg);  
    background-position:center center;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -67,8 +67,14 @@ body {
   background-size:cover; padding-bottom: 10%;
 }
 
+@media screen and (max-width: 425px){
+  .carousel-item-2{
+    padding-bottom: 45%;
+  }
+}
+
 .carousel-item-3{
-  background:url(../assets/image/header.jpg);  
+  background:url(../assets/image/petani/petani1.jpg);  
    background-position:center center;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -78,6 +84,12 @@ body {
 
 .carousel-item h1{
   padding-top: 13%; font-size: 72px;
+}
+
+@media screen and (max-width: 425px){
+.carousel-item h1{
+
+}
 }
 
 .carousel-item p{
@@ -584,50 +596,6 @@ color: white; text-align: center; margin-top: 4%;
 
 /* -----SEAWEED MART BOSQ---------*/
 
-/* Style the search field */
-form.searchProduk input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 35%;
-  background: #fff;
-}
-
-/* Style the submit button */
-form.searchProduk button {
-  float: left;
-  width: 10%;
-  padding: 10px;
-  background: #12a8bb;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-  cursor: pointer;
-}
-
-form.searchProduk button:hover {
-  background: #0f96a8;
-}
-
-/* Clear floats */
-form.searchProduk::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-@media screen and (max-width: 425px){
-  form.searchProduk input[type=text] {
-  width: 85%;
-}
-
-/* Style the submit button */
-form.searchProduk button {
-  width: 12%;
-}
-}
 
 .produkSeaweedMart{
    
@@ -640,7 +608,6 @@ form.searchProduk button {
 .paginationProduk a{
   color: #167c85;
 }
-<<<<<<< HEAD
 
 .judulProduk{
   font-weight: bold;
@@ -656,6 +623,10 @@ form.searchProduk button {
 
 .fotoProduk{
   border-top-right-radius: 25px; border-top-left-radius: 25px;
+}
+
+.buttonProdukInvest{
+  padding: 4% 20%;
 }
 
 .form-wrapper {
@@ -695,6 +666,12 @@ form.searchProduk button {
   height: 10%;
   padding: 10px;
   width: 70%;
+}
+
+@media screen and (max-width: 425px){
+  .form-wrapper{
+  width: 85%;
+}
 }
 
 .form-wrapper #search:focus {
@@ -759,5 +736,4 @@ form.searchProduk button {
 .form-wrapper #submit::-moz-focus-inner {
   border: 0;
 }
-=======
->>>>>>> ebefd04486d5b68fdceffb19a57294f69423640f
+

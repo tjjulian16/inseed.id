@@ -37,40 +37,41 @@
   <body id="page-top">
 
     <!-- ISI NAVBAR DISINI YA!!!! -->
-	<section id="header">
-<nav class="navbar navbar-expand-lg navbar-light bg-white" id="header">
+<section id="header">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
  <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style="  padding: 0 20px 0 20px;
-    height: 50px;
-    width: 200px;"></a>  
+    height: 75px;
+    width: 250px;"></a>  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
  
 
-  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+  <div class="collapse navbar-collapse " id="navbarSupportedContent" >
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{{URL::to('welcome')}}">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">SEAWEED INVEST</a>
+        <a class="nav-link" href="{{URL::to('invest')}}">SEAWEED INVEST</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="">SEAWEED MART</a>
+        <a class="nav-link" href="{{URL::to('mart')}}">SEAWEED MART</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="">SEAWEED ARTICLE</a>
+        <a class="nav-link" href="{{URL::to('article')}}">SEAWEED ARTICLE</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="">TENTANG KAMI</a>
+        <a class="nav-link" href="{{URL::to('about_us')}}">TENTANG KAMI</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="">MASUK</a>
+        <a class="nav-link" href="{{URL::to('login')}}">MASUK</a>
       </li>
     </ul>
   </div>
 </nav>
   </section>
+
 	<section id="headerHome">     
   <div class="carousel slide" id="controlCarousel" data-ride="carousel" >
   <div class="carousel-inner" style="width: 100%; text-align: center; ">
@@ -276,9 +277,10 @@
               <p class="text-muted mb-0"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
             </div>
           </div>
-		  <div class="container text-center">
-        <h4 class="mb-4"></br></br></br>Berminat? Yuk gabung di inseed.id !</h4>
-        <a class="btn btn-light btn-xl sr-button" href="">Bergabung sekarang!</a>
+		  <div class="container text-center" style=" margin-top: 5%;">
+         <hr class="my-4" >
+        <h4 class="mb-4"></br></br>Berminat? Yuk gabung di inseed.id !</h4>
+        <a class="btn btn-success btn-xl sr-button" href="">Bergabung sekarang!</a>
       </div>
         </div>
       </div>
