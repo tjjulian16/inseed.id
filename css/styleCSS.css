@@ -771,3 +771,87 @@ margin-right: 2%;
 .bagianDanaInvest{
   background-color: #f8f7f0; padding-bottom: 6%; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; padding-top: 6%;
 }
+
+
+/* ----------- DETAIL PRODUCT BOSQ-------- */
+
+.slideshowProduk{
+  height: 300px;
+}
+
+
+@media screen and (max-width: 768px){
+ .slideshowProduk{
+  height: 190px;
+
+}
+}
+
+@media screen and (max-width: 425px){
+ .slideshowProduk{
+  height: 250px;
+}
+}
+  .preview-thumbnail.nav-tabs {
+  border: none;
+  margin-top: 15px; }
+  .preview-thumbnail.nav-tabs li {
+    width: 18%;
+    margin-right: 2.5%; }
+    .preview-thumbnail.nav-tabs li img {
+      max-width: 100%;
+      display: block; }
+    .preview-thumbnail.nav-tabs li a {
+      padding: 0;
+      margin: 0; }
+    .preview-thumbnail.nav-tabs li:last-of-type {
+      margin-right: 0; }
+
+
+.descProdukDetail{
+  margin:2%; text-align: justify; padding: 2%;  border-radius: 25px; border:0.5px solid #12a8bb;
+}
+
+@media screen and (max-width: 425px){
+  .descProdukDetail, .descSeller{
+  width: 85%;
+  margin-left: 8% !important;
+}
+.descProdukDetail h5{
+  text-align: center;
+}
+}
+
+@media screen and (width: 768px){
+.descSeller{
+  margin-left: 15% !important;
+}
+.descProdukDetail h5{
+  text-align: center;
+}
+}
+.descProdukDetail h5{
+margin-top: 8%;
+}
+.descProdukDetail h6{
+  margin-top: 8%;
+}
+
+.descProdukDetail span{
+  color: green;
+}
+
+.descProdukDetail h2{
+  font-weight: bold; color: green;
+}
+.descSeller{
+  margin: 2%; text-align: center; padding: 2%; height: 50%; border:0.5px solid #12a8bb; border-radius: 25px;
+}
+
+.descSeller span{
+  color: #ffe100;
+}
+
+.descSeller img{
+  height: 85px; width: auto; border-radius: 50px; 
+}

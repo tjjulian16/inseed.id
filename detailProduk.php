@@ -1,22 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style type="text/css">
-    .preview-thumbnail.nav-tabs {
-  border: none;
-  margin-top: 15px; }
-  .preview-thumbnail.nav-tabs li {
-    width: 18%;
-    margin-right: 2.5%; }
-    .preview-thumbnail.nav-tabs li img {
-      max-width: 100%;
-      display: block; }
-    .preview-thumbnail.nav-tabs li a {
-      padding: 0;
-      margin: 0; }
-    .preview-thumbnail.nav-tabs li:last-of-type {
-      margin-right: 0; }
-  </style>
  <link rel="icon" href="assets/image/icon/icon.png">
   <title>inseed.id - Seaweed Invest</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,18 +60,18 @@ $(window).load(function() {
 
 <section id="detailProduk">
   
-  <div class="container-fluid" style="margin:4% 0">
+  <div class="container-fluid" style="margin:3% 0">
     <div class="row" >
-      <div class="col-md-4 col-sm-12" style=" margin: 2%; ">
+      <div class="col-lg-4 col-md-5 col-sm-11" style=" margin: 2%; ">
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" style="height: 300px;">
-    <div class="carousel-item active">
+  <div class="carousel-inner slideshowProduk">
+    <div class="carousel-item active tab-pane" id="pic-1">
       <img class="d-block w-100" src="assets/image/produk/produk1.jpg" alt="First slide" id="pic-1">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item tab-pane" id="pic-2">
       <img class="d-block w-100" src="assets/image/produk/produk2.jpg" alt="Second slide" id="pic-2">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item tab-pane" id="pic-3">
       <img class="d-block w-100" src="assets/image/produk/produk3.jpg" alt="Third slide">
     </div>
   </div>
@@ -101,18 +85,16 @@ $(window).load(function() {
   </a>
 </div>
   <ul class="preview-thumbnail nav nav-tabs">
-              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-              <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-              <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-              <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-              <li><a data-target="#pic-5" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="assets/image/produk/produk1.jpg" /></a></li>
+              <li><a data-target="#pic-2" data-toggle="tab"><img src="assets/image/produk/produk2.jpg" /></a></li>
+              <li><a data-target="#pic-3" data-toggle="tab"><img src="assets/image/produk/produk3.jpg" /></a></li>
             </ul>
         </div>
-        <div class="col-md-3 col-sm-12" style="margin:2%; text-align: justify; ">
-          <h2 style="color: green; font-weight: bold; ">Produk Rumput Laut Berkualitas!</h2>
-            <h5 style="margin-top: 8%; ">Harga:<span style="color: green"> Rp 100.000</span></h5>
-              <h5 style="margin-top: 8%;">Stok Produk:<span style="color: green"> 10 pcs</span></h5>
-                <h6 style="margin-top: 8%;">Deskripsi:</h6>
+        <div class=" col-lg-3 col-md-5 col-sm-10 descProdukDetail">
+          <h2>Produk Rumput Laut Berkualitas!</h2>
+            <h5>Harga:<span > Rp 100.000</span></h5>
+              <h5>Stok Produk:<span > 10 pcs</span></h5>
+                <h6>Deskripsi:</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
          </p>
@@ -146,11 +128,11 @@ $(window).load(function() {
                         </a>
                     </form>
      </div>
-         <div class="col-md-3 col-sm-12" style="margin: 2%; text-align: center;">
+         <div class="col-lg-3 col-md-8 col-sm-10 descSeller" >
         <h2 style="color: green;">Produk Oleh:</h2><br>
-        <img src="assets/image/girl.png" style="height: 85px; width: auto; border-radius: 50px; "><br><br>
+        <img src="assets/image/girl.png"><br><br>
         <h4>Bu Marji</h4>
-        <span class="fas fa-star" style="color: #ffe100;"><span class="fas fa-star" style="color: #ffe100;"><span class="fas fa-star" style="color: #ffe100;"><span class="fas fa-star" style="color: #ffe100;"></span></span></span></span>
+        <span class="fas fa-star"><span class="fas fa-star" ><span class="fas fa-star"><span class="fas fa-star"></span></span></span></span>
         <p style="margin-top: 2%;">Tahun Bergabung: 2018</p>
         <p>Lokasi Penjual: Sidoarjo, Jawa Timur</p>
       </div>
