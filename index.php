@@ -72,7 +72,7 @@
 </nav>
   </section>
 
-	<section id="headerHome">     
+	<section id="headerHome" style="height: 40rem;">     
   <div class="carousel slide" id="controlCarousel" data-ride="carousel" >
   <div class="carousel-inner" style="width: 100%; text-align: center; ">
     <div class="carousel-item active carousel-item-1">
@@ -104,25 +104,8 @@
   </section>
 
 
- <!--<header class="masthead text-center d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase text-white" style="font-size: ">
-              <strong>inseed.id</strong>
-            </h1>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded text-white mb-5">Invest Seaweed in Indonesia</p>
-          </div>
-        </div>
-      </div>
-    </header> -->
-   
-  
-  
 	
-	<section id="services" style="padding-top: 60px;padding-bottom: 40px">
+	<section id="services" style="padding-top: 60px ;height:40rem;">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -167,7 +150,7 @@
       </div>
     </section>
 
-    <section class="bg-primary" id="about" style="padding-top: 50px; padding-bottom: 60px">
+    <section class="bg-primary" id="about" style="padding-top: 125px; height: 40rem; ">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 text-center">
@@ -181,13 +164,13 @@
             </h1>
             <p class="text-faded text-white mb-4" style="padding-top: 30px">Inseed.id merupakan sebuah web yang menyediakan tempat untuk investasi pada budidaya rumput laut di Indonesia. 
 			Selain itu, inseed.id juga membantu membuka potensi produk rumput laut dengan cara memasarkan hasil produksi para UMKM kepada masyarakat umum untuk bisa melihat dan membelinya.</br>
-			</br>Dengan demikian, inseed.id diharapkan dapat membawa inovasi teknologi yang positif bagi para petani maupun masyarakat dan juga menjadi salah satu usaha untuk memajukan potensi rumput laut.</br></br></br></br></p>
+			</br>Dengan demikian, inseed.id diharapkan dapat membawa inovasi teknologi yang positif bagi para petani maupun masyarakat dan juga menjadi salah satu usaha untuk memajukan potensi rumput laut.</br></p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services" style="padding-top: 60px;">
+    <section id="fiturKami" style="padding-top: 100px; height: 40rem; ">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -225,7 +208,7 @@
       </div>
     </section>
 		
-   <section class="bg-primary" id="about" style="padding-top: 50px; padding-bottom: 60px">
+   <section class="bg-primary" id="whyUs" style="height: 40rem; padding-top: 100px; ">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 text-center">
@@ -250,7 +233,7 @@
       </div>
     </section>	
 	
-	<section id="services" style="padding-top: 60px; padding-bottom: 60px">
+	<section id="testimoni" style="padding-top: 60px; padding-bottom: 60px">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
