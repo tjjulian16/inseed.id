@@ -72,23 +72,28 @@
 </nav>
   </section>
 
-	<section id="headerHome" style="height: 40rem;">     
+	<section id="headerHome" style="height: 100%;">     
   <div class="carousel slide" id="controlCarousel" data-ride="carousel" >
   <div class="carousel-inner" style="width: 100%; text-align: center; ">
     <div class="carousel-item active carousel-item-1">
       <h1 class="text-uppercase text-white" ><strong>Tahukah anda?</strong></h1>
       <p class="text-faded text-white mb-5">Potensi rumput laut yang dimiliki Bangsa Indonesia?</p>
-      <a href="#" class="shiny-btn" >Fakta Rumput Laut</a> <!-- INI HARUSNYA NGELINK KE SECTION FAKTA2 RUMPUT LAUT, kasih animasi-->
+      <a href="#anchorService" class="shiny-btn" >Fakta Rumput Laut</a> <!-- INI HARUSNYA NGELINK KE SECTION FAKTA2 RUMPUT LAUT, kasih animasi-->
     </div>
      <div class="carousel-item carousel-item-2">
       <h1 class="text-uppercase text-white" ><strong>inseed.id</strong></h1>
       <p class="text-faded text-white mb-5">Invest Seaweed in Indonesia</p>
-      <a href="#" class="shiny-btn" >Who Are We?</a> <!-- INI HARUSNYA NGELINK KE SECTION INSEED.ID, kasih animasi-->
+      <a href="#anchorAbout" class="shiny-btn" >Who Are We?</a> <!-- INI HARUSNYA NGELINK KE SECTION INSEED.ID, kasih animasi-->
     </div>
      <div class="carousel-item carousel-item-3">
       <h1 class="text-uppercase text-white" ><strong>OUR FEATURES</strong></h1>
       <p class="text-faded text-white mb-5">Ingin tau layanan yang ada di inseed.id? </p>
-      <a href="#" class="shiny-btn" >Layanan kami</a> <!-- INI HARUSNYA NGELINK KE SECTION FITUR KITA, kasih animasi-->
+      <a href="#anchorFeatures" class="shiny-btn" >Layanan kami</a> <!-- INI HARUSNYA NGELINK KE SECTION FITUR KITA, kasih animasi-->
+    </div>
+     <div class="carousel-item carousel-item-4">
+      <h1 class="text-uppercase text-white" ><strong>WHY INSEED.ID?</strong></h1>
+      <p class="text-faded text-white mb-5">Alasan anda memilih kami sebagai tempat berinvestasi</p>
+      <a href="#anchorWhyUs" class="shiny-btn" >Why Us?</a> <!-- INI HARUSNYA NGELINK KE SECTION FITUR KITA, kasih animasi-->
     </div>
   </div>
   <a class="carousel-control-prev" href="#controlCarousel" role="button" data-slide="prev">
@@ -103,14 +108,14 @@
  
   </section>
 
-
+<div id="anchorService"></div>
 	
-	<section id="services" style="padding-top: 60px ;height:40rem;">
+	<section id="services" style=" height:100%; padding: 10% 0;">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase text-center">
-              <strong>TAHUKAH ANDA?</strong>
+              <strong >TAHUKAH ANDA?</strong>
             </h1>
 			<hr class="my-4">
           </div>
@@ -150,7 +155,8 @@
       </div>
     </section>
 
-    <section class="bg-primary" id="about" style="padding-top: 125px; height: 40rem; ">
+<div id="anchorAbout"></div>
+    <section class="bg-primary" id="about" style="padding: 12% 0; height: 100%;">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 text-center">
@@ -169,12 +175,12 @@
         </div>
       </div>
     </section>
-
-    <section id="fiturKami" style="padding-top: 100px; height: 40rem; ">
+<div id="anchorFeatures"></div>
+    <section id="fiturKami" style="padding: 10% 0; height: 100%; ">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h1 class="text-uppercase text-center">
+          <div class="col-lg-12 text-center" id="featur">
+            <h1 class="text-uppercase text-center" >
               <strong>fitur utama kami</strong>
             </h1>
             <hr class="my-4">
@@ -208,7 +214,9 @@
       </div>
     </section>
 		
-   <section class="bg-primary" id="whyUs" style="height: 40rem; padding-top: 100px; ">
+
+    <div id="anchorWhyUs"></div>
+   <section class="bg-primary" id="whyUs" style="height: 100%; padding: 10% 0; ">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 text-center">
@@ -324,6 +332,47 @@
           </div> 
       </div>
       </section>
+
+      <script type="text/javascript">
+        
+        // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .not('[href="#controlCarousel"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+      </script>
   </body>
 
 </html>

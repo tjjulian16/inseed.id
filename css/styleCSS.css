@@ -67,6 +67,23 @@ body {
   background-size:cover; padding-bottom: 10%;
 }
 
+.carousel-item-3{
+  background:url(../assets/image/petani/petani1.jpg);  
+   background-position:center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover; padding-bottom: 10%;
+}
+
+.carousel-item-4{
+  background:url(../assets/image/petani/petani2.jpg);  
+   background-position:center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover; padding-bottom: 10%;
+}
 @media screen and (max-width: 425px){
   .carousel-item-2, .carousel-item-1, .carousel-item-3{
     padding-bottom: 25% !important;
@@ -74,44 +91,27 @@ body {
 }
 /* Buat nyetting tinggi dari section */
 @media screen and (max-width: 768px){
-  #headerHome{
-    height: 25rem !important;
-  }
-
-  #services{
-    height: 60rem !important;
-  }
   #about{
-    padding-top: 0px !important;
-    height: 45rem !important;
+    padding-top: 0px !important;  
   }
-
   #fiturKami{
-    padding-top: 35px !important;
-    height: 45rem !important;
+    padding-top: 35px !important;   
   }
   #whyUs{
-    height: 45rem !important;
     padding-top: 0px !important;
   }
 }
 
 @media screen and (max-width: 576px){
-
   #about{
-    padding-top: 0px !important;
-    height: 45rem !important;
+    padding-top: 0px !important; 
   }
 
   #services{
-    height: 110rem !important;
-    padding-top: 80px !important;
-  }
-  #fiturKami{
-    height: 60rem !important;
+    padding-top: 25px !important;
   }
   #whyUs{
-    height: 55rem !important;
+
     padding-top: 0px !important;
   }
 }
@@ -122,28 +122,24 @@ body {
   }
   #about{
     padding-top: 0px !important;
-    height: 50rem !important;
+  
   }
 
-  #whyUs{
-    height: 64rem !important;
   }
-}
 
-.carousel-item-3{
-  background:url(../assets/image/petani/petani1.jpg);  
-   background-position:center center;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover; padding-bottom: 10%;
-}
+
 
 .carousel-item h1{
   padding-top: 13%; font-size: 72px;
 }
 
 @media screen and (max-width: 425px){
+.carousel-item h1{
+font-size: 40px;
+}
+}
+
+@media screen and (max-width: 576px){
 .carousel-item h1{
 font-size: 40px;
 }
