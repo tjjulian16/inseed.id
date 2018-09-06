@@ -73,12 +73,14 @@ $(window).load(function() {
         <h2 style="text-align: center;">Masuk Ke inseed.id</h2>
         <form action="insert.php" method="POST" class="col-md-10 col-sm-10 col-xs-10" style="float: left;">
   <div class="form-group">
+      <label class="form-control-placeholder" for="email" style="margin-left: 10%;">Email</label> 
         <input type="text" id="email" class="form-control" required>
-        <label class="form-control-placeholder" for="email">Email</label>
+      
       </div>
       <div class="form-group">
+           <label class="form-control-placeholder" for="password" style="margin-left: 10%;">Password</label>
         <input type="password" id="password" class="form-control" required>
-        <label class="form-control-placeholder" for="password">Password</label>
+     
       </div>
 
   

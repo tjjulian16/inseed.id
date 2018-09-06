@@ -60,73 +60,48 @@ $(window).load(function() {
   </section>
 
 <section id="Keranjang">
-    <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 header">
-      <h2>Keranjang <b>Belanja</b></h2>
-</div>
- <div class="container mb-4">
+   
+ <div class="container-fluid">
     <div class="row">
-        <div class="col-12">
-            <div class="table-responsive">
+        <div class="col-md-12 col-sm-12">
+            <div class="table-responsive" style="margin-top: 2%;">
                 <table class="table table-striped">
                     <thead>
-                        <tr>
-                            <th scope="col"> </th>
-                            <th scope="col">Product</th>
-                            <th scope="col">Available</th>
-                            <th scope="col" class="text-center">Quantity</th>
-                            <th scope="col" class="text-right">Price</th>
-                            <th> </th>
+                        <tr class="headerKeranjang">
+                            <th scope="col"> Foto Produk</th>
+                            <th scope="col" style="width: 25%;">Nama Produk</th>
+                            
+                            <th scope="col" class="text-center">Jumlah</th>
+                            <th scope="col" class="text-right">Harga</th>
+                            <th scope="col" class="text-right">Hapus</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
-                            <td>Product Name Dada</td>
-                            <td>In stock</td>
+                        <tr class="produkKeranjang">
+                            <td><img src="assets/image/petani/petani1.jpg"/> </td>
+                            <td>Rumput laut X</td>
+                           
                             <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">124,90 €</td>
+                            <td class="text-right">Rp 40.000</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
-                        <tr>
-                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
-                            <td>Product Name Toto</td>
-                            <td>In stock</td>
+                        <tr class="produkKeranjang">
+                            <td><img src="assets/image/petani/petani1.jpg" /> </td>
+                            <td>Rumput laut Y</td>
+                           
                             <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">33,90 €</td>
+                            <td class="text-right">Rp 25.000</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
-                        <tr>
-                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
-                            <td>Product Name Titi</td>
-                            <td>In stock</td>
+                        <tr class="produkKeranjang">
+                            <td><img src="assets/image/petani/petani1.jpg" /> </td>
+                            <td>Rumput laut Z</td>
+                           
                             <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">70,00 €</td>
+                            <td class="text-right">Rp 35.000</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>Sub-Total</td>
-                            <td class="text-right">255,90 €</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>Shipping</td>
-                            <td class="text-right">6,90 €</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td><strong>Total</strong></td>
-                            <td class="text-right"><strong>346,90 €</strong></td>
-                        </tr>
+                      
                     </tbody>
                 </table>
             </div>
@@ -142,11 +117,11 @@ $(window).load(function() {
       </div>
       <div class="col-xl-5 col-md-5 col-sm-5 col-xs-5 ringkasanPesananKeranjang" >
         <h4>Ringkasan Pesanan</h4>
-        <h6>Subtotal (1 item): <span style="margin-left: 2%; font-weight: bold;">Rp 100.000</span></h6>
-        <h6 style="border-bottom: 1px solid grey; padding-bottom: 2%;">Biaya Pengiriman: <span style="margin-left: 2%; font-weight: bold;">Rp 5.000</span></h6>
+        <h6>Subtotal (3 item): <span class="subtotalKeranjang">Rp 100.000</span></h6>
+        <h6 class="biayaPengirimanKeranjang">Biaya Pengiriman: <span>Rp 5.000</span></h6>
         <h4>Total: <span class="totalHargaKeranjang">Rp 105.000</span></h6>
           <br>
-        <a href="#" class="buttonBuatPesananKeranjang">Buat Pesanan</a>
+        <a href="#" class="buttonBuatPesananKeranjang">Lanjut Ke Pembayaran</a>
       </div>
     </div>
   </div>

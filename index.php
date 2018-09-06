@@ -86,14 +86,14 @@
       <a href="#anchorAbout" class="shiny-btn" >Who Are We?</a> <!-- INI HARUSNYA NGELINK KE SECTION INSEED.ID, kasih animasi-->
     </div>
      <div class="carousel-item carousel-item-3">
-      <h1 class="text-uppercase text-white" ><strong>OUR FEATURES</strong></h1>
+      <h1 class="text-uppercase text-white" ><strong>FITUR KAMI</strong></h1>
       <p class="text-faded text-white mb-5">Ingin tau layanan yang ada di inseed.id? </p>
       <a href="#anchorFeatures" class="shiny-btn" >Layanan kami</a> <!-- INI HARUSNYA NGELINK KE SECTION FITUR KITA, kasih animasi-->
     </div>
      <div class="carousel-item carousel-item-4">
-      <h1 class="text-uppercase text-white" ><strong>WHY INSEED.ID?</strong></h1>
+      <h1 class="text-uppercase text-white" ><strong>MENGAPA INSEED.ID?</strong></h1>
       <p class="text-faded text-white mb-5">Alasan anda memilih kami sebagai tempat berinvestasi</p>
-      <a href="#anchorWhyUs" class="shiny-btn" >Why Us?</a> <!-- INI HARUSNYA NGELINK KE SECTION FITUR KITA, kasih animasi-->
+      <a href="#anchorWhyUs" class="shiny-btn" >Yuk cekidot</a> <!-- INI HARUSNYA NGELINK KE SECTION FITUR KITA, kasih animasi-->
     </div>
   </div>
   <a class="carousel-control-prev" href="#controlCarousel" role="button" data-slide="prev">
