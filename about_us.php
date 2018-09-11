@@ -74,7 +74,7 @@ $(window).load(function() {
       <div class="row cyan-background">
         <div class="col-lg-12 col-xs-12">
           <div class="col-lg-4 col-sm-12 fitur-right-side">
-            <img src="assets/image/invest.png" class="fitur-img">
+            <img src="assets/image/icon/invest.png" class="fitur-img">
           </div>
           <div class="col-lg-8 col-sm-12 fitur-left-side text-fitur-white">
             <h2 class="text-fitur-title">Seaweed Invest</h2>
@@ -85,7 +85,7 @@ $(window).load(function() {
       <div class="row white-background">
         <div class="col-lg-12 col-xs-12">
           <div class="col-lg-4 col-sm-12 fitur-left-side">
-            <img src="assets/image/mart.png" class="fitur-img">
+            <img src="assets/image/icon/mart.png" class="fitur-img">
           </div>
           <div class="col-lg-8 col-sm-12 fitur-right-side text-fitur-cyan">
             <h2 class="text-fitur-title">Seaweed Mart</h2>
@@ -96,7 +96,7 @@ $(window).load(function() {
       <div class="row cyan-background">
           <div class="col-lg-12 col-xs-12">
             <div class="col-lg-4 col-sm-12 fitur-right-side">
-              <img src="assets/image/article.png" class="fitur-img">
+              <img src="assets/image/icon/article.png" class="fitur-img">
             </div>
             <div class="col-lg-8 col-sm-12 fitur-left-side text-fitur-white">
               <h2 class="text-fitur-title">Seaweed Article</h2>

@@ -83,23 +83,23 @@ $(window).load(function() {
                            
                             <td><input class="form-control" type="text" value="1" /></td>
                             <td class="text-right">Rp 40.000</td>
-                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                            <td class="text-right"><a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </a> </td>
                         </tr>
                         <tr class="produkKeranjang">
-                            <td><img src="assets/image/petani/petani1.jpg" /> </td>
+                            <td><img src="assets/image/petani/petani2.jpg" /> </td>
                             <td>Rumput laut Y</td>
                            
                             <td><input class="form-control" type="text" value="1" /></td>
                             <td class="text-right">Rp 25.000</td>
-                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                            <td class="text-right"><a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </a> </td>
                         </tr>
                         <tr class="produkKeranjang">
-                            <td><img src="assets/image/petani/petani1.jpg" /> </td>
+                            <td><img src="assets/image/petani/petani3.jpg" /> </td>
                             <td>Rumput laut Z</td>
                            
                             <td><input class="form-control" type="text" value="1" /></td>
                             <td class="text-right">Rp 35.000</td>
-                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                           <td class="text-right"><a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </a> </td>
                         </tr>
                       
                     </tbody>

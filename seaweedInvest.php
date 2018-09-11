@@ -91,7 +91,7 @@ $(window).load(function() {
             <p class="card-text ">Dana Terkumpul :<span >Rp 25.932.150</span></p>
                 <p class="card-text ">Target Dana:<span >Rp 30.000.000</span></p>
                     <p class="card-text ">Sisa Waktu :<span >10 Hari</span></p>
-                    <a href="#" class="btn btn-info buttonProdukInvest">Modali</a>
+                    <a href="#" class="btn btn-info buttonProdukInvest">Lihat Proyek</a>
           </div>
   </div>
 </div>
@@ -114,7 +114,7 @@ $(window).load(function() {
             <p class="card-text ">Dana Terkumpul :<span >Rp 25.932.150</span></p>
                 <p class="card-text ">Target Dana:<span >Rp 30.000.000</span></p>
                     <p class="card-text ">Sisa Waktu :<span >10 Hari</span></p>
-                    <a href="#" class="btn btn-info buttonProdukInvest">Modali</a>
+                    <a href="#" class="btn btn-info buttonProdukInvest">Lihat Proyek</a>
           </div>
   </div>
 </div>
@@ -138,7 +138,7 @@ $(window).load(function() {
             <p class="card-text ">Dana Terkumpul :<span >Rp 25.932.150</span></p>
                 <p class="card-text ">Target Dana:<span >Rp 30.000.000</span></p>
                     <p class="card-text ">Sisa Waktu :<span >10 Hari</span></p>
-                    <a href="#" class="btn btn-info buttonProdukInvest">Modali</a>
+                    <a href="#" class="btn btn-info buttonProdukInvest">Lihat Proyek</a>
           </div>
   </div>
 </div>
@@ -162,7 +162,7 @@ $(window).load(function() {
             <p class="card-text ">Dana Terkumpul :<span >Rp 25.932.150</span></p>
                 <p class="card-text ">Target Dana:<span >Rp 30.000.000</span></p>
                     <p class="card-text ">Sisa Waktu :<span >10 Hari</span></p>
-                    <a href="#" class="btn btn-info buttonProdukInvest">Modali</a>
+                    <a href="#" class="btn btn-info buttonProdukInvest">Lihat Proyek</a>
           </div>
   </div>
 </div>
@@ -186,7 +186,7 @@ $(window).load(function() {
             <p class="card-text ">Dana Terkumpul :<span >Rp 25.932.150</span></p>
                 <p class="card-text ">Target Dana:<span >Rp 30.000.000</span></p>
                     <p class="card-text ">Sisa Waktu :<span >10 Hari</span></p>
-                    <a href="#" class="btn btn-info buttonProdukInvest">Modali</a>
+                    <a href="#" class="btn btn-info buttonProdukInvest">Lihat Proyek</a>
           </div>
   </div>
 </div>
@@ -210,7 +210,7 @@ $(window).load(function() {
             <p class="card-text ">Dana Terkumpul :<span >Rp 25.932.150</span></p>
                 <p class="card-text ">Target Dana:<span >Rp 30.000.000</span></p>
                     <p class="card-text ">Sisa Waktu :<span >10 Hari</span></p>
-                    <a href="#" class="btn btn-info buttonProdukInvest">Modali</a>
+                    <a href="#" class="btn btn-info buttonProdukInvest">Lihat Proyek</a>
           </div>
   </div>
 </div>

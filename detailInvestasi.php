@@ -91,7 +91,7 @@ $(window).load(function() {
             </ul>
         </div>
         <div class=" col-lg-3 col-md-5 col-sm-10 descProdukDetail">
-          <h2>Produk Rumput Laut Berkualitas!</h2>
+          <h2>Proyek Rumput Laut Sidoarjo</h2>
             <h5>Harga:<span > Rp 100.000</span></h5>
               <h5>Stok Produk:<span > 10 pcs</span></h5>
                 <h6>Deskripsi:</h6>

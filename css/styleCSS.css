@@ -155,12 +155,7 @@ header.masthead p{
 .section-heading {
 	margin-top:0
 }
-a {
-	color:white;
-	-webkit-transition:all .2s;
-	-moz-transition:all .2s;
-	transition:all .2s
-}
+
 header.masthead{
 
 	background-position:center center;
@@ -192,19 +187,9 @@ header.masthead p{
 	.btn{
 		font-weight:700;
 		text-transform:uppercase;
-		border:none;
 		border-radius:300px;
 	}
-	.btn-xl{
-		padding:1rem 2rem}
-	.btn-primary{
-		background-color:white;
-		border-color:#317e85}
-	.btn-primary:active,.btn-primary:focus,.btn-primary:hover{
-		color:white;
-		background-color:#e3ede9!important}
-	.btn-primary:active,.btn-primary:focus{
-		box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important}
+
 		
 /*fix here*/
 a:hover {
@@ -885,7 +870,7 @@ margin-right: 2%;
 
 
 .descProdukDetail{
-  margin:2%; text-align: justify; padding: 2%;  border-radius: 25px; border:0.5px solid #12a8bb;
+  margin:2%; text-align: justify; padding: 2%;  border-radius: 25px; border:3px solid #12a8bb;
 }
 
 @media screen and (max-width: 425px){
@@ -921,7 +906,7 @@ margin-top: 8%;
   font-weight: bold; color: green;
 }
 .descSeller{
-  margin: 2%; text-align: center; padding: 2%; height: 50%; border:0.5px solid #12a8bb; border-radius: 25px;
+  margin: 2%; text-align: center; padding: 2%; height: 50%; border:3px solid #12a8bb; border-radius: 25px;
 }
 
 .descSeller span{
@@ -930,4 +915,46 @@ margin-top: 8%;
 
 .descSeller img{
   height: 85px; width: auto; border-radius: 50px; 
+}
+
+/*  Dashboard */
+
+  .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#headerDashboard{
+  height: 100px;  background-image: url('../assets/image/header.jpg'); 
+  background-size: cover; background-repeat: no-repeat;
+}
+
+.judulMenuDashboard{
+  text-align: center; background-color: green; border-color: grey; color: white;
+}
+
+.menuDashboard a{
+color: black;
+}
+
+.menuDashboard i{
+  margin-right: 5%;
+  width: 30px;
+}
+
+.profilePictureDashboard{
+  max-height: 100px; width: auto; margin-bottom: 5%;
+}
+
+.editProfile input, .editProfile select{
+  margin-top: 2%; width: 85%;
 }
