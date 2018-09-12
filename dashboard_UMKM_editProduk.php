@@ -74,7 +74,7 @@ $(window).load(function() {
     <div class="col-md-3" >
              <ul class="list-group menuDashboard" >
   <!-- User -->
-  <li class="list-group-item judulMenuDashboard" style="background-color: black;">ADMINISTRATOR</li>
+  <li class="list-group-item judulMenuDashboard" style="background-color: #12a8bb;">UMKM</li>
   <div id="sidebarUser" style="display: none;">
      <a href="dashboard.php" > <li style="margin-top: 10%;" class="list-group-item active"><i class="fas fa-user" ></i>Profilku</li> </a>
  <a href="dashboard_user_cairkan.php"> <li class="list-group-item"><i class="fas fa-money-bill"></i>Cairkan Dana</li></a>
@@ -84,7 +84,7 @@ $(window).load(function() {
 
 
  <!-- Admin-->
- <div id="sidebarAdmin" >
+ <div id="sidebarAdmin" style="display: none;">
     <a href=""> <li style="margin-top: 10%;" class="list-group-item "><i class="fas fa-user"></i>Kelola Pengguna</li></a>
  <a href=""> <li class="list-group-item"><i class="fas fa-newspaper" ></i>Seaweed Article</li></a> 
  <a href=""> <li class="list-group-item "><i class="fas fa-shopping-cart" ></i>Seaweed Mart</li></a>
@@ -99,8 +99,8 @@ $(window).load(function() {
  
 
  <!-- UMKM -->
-<div id="sidebarUMKM" style="display: none;">  
-  <a href=""> <li style="margin-top: 10%;" class="list-group-item"><i class="fa fa-box-open"></i>Kelola Produk</li></a>
+<div id="sidebarUMKM">  
+  <a href=""> <li style="margin-top: 10%;" class="list-group-item active"><i class="fa fa-box-open"></i>Kelola Produk</li></a>
 </div>
   
 </ul>
@@ -109,59 +109,77 @@ $(window).load(function() {
     <div class="col-md-9">
             <div class="card">
             <div class="card-header" style="background-color: white;">
-             <h4 style="font-weight: bold;"> Kelola Artikel inseed.id</h4>
-             <h6> Kelola semua artikel di inseed.id</h6>
+             <h4 style="font-weight: bold;"> Edit Produk</h4>
+        
             </div>
             <div class="card-body ">
               <div class="row">
-              <div class="col-md-12" style="text-align: left;">
-                <a href="dashboard_admin_tambahArtikel.php" class="btn btn-primary" style="margin-bottom: 5%;">Tambah Artikel</a>
-              <div class="table-responsive"  style="max-height: 250px;">
-                <table class="table table-striped">
-                    <thead>
-                        <tr class="headerKeranjang">
-                            <th scope="col">ID</th>
-                            <th scope="col" class="text-center">Judul </th>
-                            <th scope="col" class="text-left">Tanggal Terbit</th>
-                            <th scope="col" class="text-left">Edit</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="produkKeranjang">
-                            <td>0001</td>
-                            <td>Ditemukan tambak rumput laut di sidoarjo</td>
-                           
-                            <td>31/12/18</td>
-                            
-                            <td class="text-left"><button class="btn btn-sm btn-primary"><i class="fas fa-edit"></i> </button> </td>
-                        </tr>
-                        <tr class="produkKeranjang">
-                            <td>0002</td>
-                            <td>Manfaat Rumput Laut</td>
-                           
-                            <td>31/12/18</td>
-                            
-                            <td class="text-left"><button class="btn btn-sm btn-primary"><i class="fas fa-edit"></i> </button> </td>
-                        </tr>
-                        <tr class="produkKeranjang">
-                           <td>0003</td>
-                            <td>Sumber rumput laut alami</td>
-                           
-                            <td>31/12/18</td>
-                            
-                            <td class="text-left"><button class="btn btn-sm btn-primary"><i class="fas fa-edit"></i> </button> </td>
-                        </tr>
-                      
-                    </tbody>
-                </table>
-            </div>
+              <div class="col-md-4 editProdukUMKM" style="text-align: center;">
+                <img src="assets/image/produk/produk1.jpg"> 
+              
+              <form action="#" method="POST">
+                <br>
+                 <div class="upload-btn-wrapper">
+               <button class="btn">Pilih gambar</button>
+                 <input type="file" name="profilePicture" accept=".jpg, .jpeg, .png">
+              </div>
             </div>
            
-          
-         </div>
+           <div class="col-md-8 text-left editProdukUMKM">
+           <div class="row">
+            <h6>Nama Produk:
+             <input type="text" name="namaProduk" class="form-control">      
+        </h6>
+        <h6>Harga:
+             <input type="text" name="hargaProduk" class="form-control">
+         
+        </h6>
+
+          </div>
+
+           <div class="row">
+            
+        <h6>Stok:
+            <input type="text" name="stokProduk" class="form-control">
+         
+        </h6>
+        <h6>Detail Produk:
+             <textarea form="" name="detailProduk" class="form-control"></textarea>
+         
+        </h6>
+
+          </div>
+           <div class="row">
+            <h6>Lokasi Produk
+             <input type="text" name="lokasiProduk" class="form-control">
+         
+        </h6> 
+        <h6>Varian
+             <select class="form-control" id="varianProduk" name="varianProduk">
+                <option value="200 gram">200 Gram</option>
+                <option value="400 gram">400 gram</option>
+             
+              </select> 
+         
+        </h6>
+       
+
+          </div>
+            <br>
+            
+
+           <button type="submit" class="btn btn-outline-primary" style="width: 25%; margin-left: 25%;">Simpan</button>
+            
+
+</form>
+</div>
+</div>
         </div>
     </div>
     </div>
+</div>
+</div>
+</div>
 
 </body>
 </html>

@@ -958,3 +958,39 @@ color: black;
 .editProfile input, .editProfile select{
   margin-top: 2%; width: 85%;
 }
+
+.table-responsive{
+   max-height: 250px;
+}
+
+  .editProdukUMKM input,.editProdukUMKM textarea {
+     width: 85%;
+    margin-top: 5%;
+    margin-right: 15%;
+  }
+
+  .editProdukUMKM select{
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 15%;
+  }
+
+  .editProdukUMKM h6{
+    margin: 2% 2%;
+  }
+
+  .editProdukUMKM img{
+    max-width: auto;
+    max-height: 150px;
+  }
+
+  .editProyekDashboard img{
+    max-width: auto;
+    max-height: 150px;
+  }
+
+  .editProyekDashboard input{
+    width: 85%;
+    margin-top: 5%;
+    margin-right: 15%;
+  }
