@@ -2,10 +2,9 @@
 <html lang="en">
 
   <head>
- <link rel="icon" href="assets/image/icon/icon.png">
+ <link rel="icon" href="<?php echo base_url('asset/assets/image/icon/icon.png');?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/jcarousel.responsive.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -13,8 +12,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="css/jcarousel.responsive.js"></script>
-  <script src="css/jcarousel.responsive.js"></script>
+  <script src="<?php echo base_url('asset/css/jcarousel.responsive.js');?>"></script>
 
     <title>inseed.id - Selamat Datang</title>
 
@@ -30,16 +28,15 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/styleCSS.css" rel="stylesheet">
+    <link href="<?php echo base_url('asset/css/styleCSS.css');?>" rel="stylesheet">
 
   </head>
-
-  <body id="page-top">
+<body id="page-top">
 
     <!-- ISI NAVBAR DISINI YA!!!! -->
 <section id="header">
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
- <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style="  padding: 0 20px 0 20px;
+ <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('asset/assets/image/logo.png');?>" style="  padding: 0 20px 0 20px;
     height: 75px;
     width: 250px;"></a>  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,30 +45,40 @@
  
 
   <div class="collapse navbar-collapse " id="navbarSupportedContent" >
-    <ul class="navbar-nav ml-auto">
+    <ul class="text-uppercase navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="{{URL::to('welcome')}}">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{URL::to('invest')}}">SEAWEED INVEST</a>
+        <a class="nav-link" href="<?=base_url()?>index.php/invest">SEAWEED INVEST</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="{{URL::to('mart')}}">SEAWEED MART</a>
+        <a class="nav-link" href="<?=base_url()?>index.php/welcome/mart">SEAWEED MART</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="{{URL::to('article')}}">SEAWEED ARTICLE</a>
+        <a class="nav-link" href="<?=base_url()?>index.php/welcome/article">SEAWEED ARTICLE</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="{{URL::to('about_us')}}">TENTANG KAMI</a>
+        <a class="nav-link" href="<?=base_url()?>index.php/welcome/about_us">TENTANG KAMI</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="{{URL::to('login')}}">MASUK</a>
+	 <?php 
+		if ($this->session->userdata('$level') === 0) {
+			echo '<a class="nav-link" href="login">';
+			echo 'MASUK';
+			echo '</a>';
+		}
+		else {
+			echo '<a class="nav-link" href="login">';
+			echo $this->session->userdata('username');}
+		echo '</a>';?>
+		</a>
       </li>
     </ul>
   </div>
 </nav>
   </section>
-
+  
 	<section id="headerHome" style="height: 100%;">     
   <div class="carousel slide" id="controlCarousel" data-ride="carousel" >
   <div class="carousel-inner" style="width: 100%; text-align: center; ">
@@ -125,28 +132,28 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="assets/image/untitled-1.png" style="width: 50%"</img>
+              <img src="<?php echo base_url('asset/assets/image/untitled-1.png');?>" style="width: 50%"</img>
               <h4 class="mb-3 text-white">Seaweed</h4>
               <p class="text-muted mb-0">Sebanyak 555 jenis rumput laut tumbuh di perairan laut Indonesia. Salah satu jenis yang dibudidayakan adalah <i>Euchuema cotonii.</i></p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-			<img src="assets/image/2.png" style="width: 50%"</img>
+			<img src="<?php echo base_url('asset/assets/image/2.png');?>" style="width: 50%"</img>
               <h4 class="mb-3 text-white">Seaweed</h4>
               <p class="text-muted mb-0">Produk rumput laut luar biasa karena sekitar 85 persen pasokan rumput laut dunia dari Indonesia.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-			<img src="assets/image/3.png" style="width: 50%"</img>
+			<img src="<?php echo base_url('asset/assets/image/3.png');?>" style="width: 50%"</img>
               <h3 class="mb-3 text-white">Seaweed</h3>
               <p class="text-muted mb-0">Setiap tahunnya, ekspor rumput laut Indonesia dapat meraup keuntungan ekspor sebesar US$ 300 juta.</p>
             </div>
           </div>
 		  <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-			<img src="assets/image/4.png" style="width: 50%"</img>
+			<img src="<?php echo base_url('asset/assets/image/4.png');?>" style="width: 50%"</img>
               <h3 class="mb-3 text-white">Seaweed</h3>
               <p class="text-muted mb-0">Rumput laut sangat bermanfaat bagi kesehatan. Baik untuk penderita diabetes dan kolesterol.</p>
             </div>
@@ -161,7 +168,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img id="jempol" src="assets/image/5.png" style="width:70%"</img>
+              <img id="jempol" src="<?php echo base_url('asset/assets/image/5.png');?>" style="width:70%"</img>
             </div>
           </div>
           <div class="col-lg-6 col-md-10">
@@ -221,7 +228,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img id="jempol" src="assets/image/thumb.png" style="width:70%"</img>
+              <img id="jempol" src="<?php echo base_url('asset/assets/image/thumb.png');?>" style="width:70%"</img>
             </div>
           </div>
           <div class="col-lg-6 col-md-10">
@@ -256,14 +263,14 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img style="width: 40%" src="assets/image/boy.png"></img>
-              <h3 class="mb-3">YONA SUTRISNO</h3>
+              <img style="width: 40%" src="<?php echo base_url('asset/assets/image/boy.png');?>"></img>
+              <h3 class="mb-3">YOAN SUTRISNO</h3>
               <p class="text-muted mb-0"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 text-center" >
             <div class="service-box mt-5 mx-auto">
-              <img src="assets/image/girl.png" style="width: 40%"></img>
+              <img src="<?php echo base_url('asset/assets/image/girl.png');?>" style="width: 40%"></img>
               <h3 class="mb-3">AVI WIJAYA</h3>
               <p class="text-muted mb-0"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
             </div>
@@ -271,7 +278,7 @@
 		  <div class="container text-center" style=" margin-top: 5%;">
          <hr class="my-4" >
         <h4 class="mb-4"></br></br>Berminat? Yuk gabung di inseed.id !</h4>
-        <a class="btn btn-success btn-xl sr-button" href="">Bergabung sekarang!</a>
+        <a class="btn btn-success btn-xl sr-button" href="<?=base_url()?>index.php/auth/daftar">Bergabung sekarang!</a>
       </div>
         </div>
       </div>
@@ -288,13 +295,13 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+    <script src="<?php echo base_url('asset/js/creative.min.js');?>"></script>
 
 	<section id="contact-us">
         <div class="container">
           <div class="row">
            <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 logo_footer">
-               <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style="width: 280px; height: auto;"></a>
+               <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url('asset/assets/image/logo.png');?>" style="width: 280px; height: auto;"></a>
                <h6 >Invest Seaweed in Indonesia</h6>
            </div>
         <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 contact" style="text-align: center; ">
