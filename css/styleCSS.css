@@ -246,7 +246,14 @@ a:hover {
 
 }
 
-/*--------------DAFTAR SEBAGAI ---*/
+
+@media screen and (min-width: 600px){
+  #cardLogin input{
+    margin-left: 10%;
+  }
+}
+
+/*--------------DAFTAR SEBAGAI --------------*/
 
 #signup_as a {
   padding: 2% 5%;
@@ -266,11 +273,6 @@ a:hover {
    transition-duration: 0.5s;
    color: white;
    text-decoration: none;
-}
-@media screen and (min-width: 600px){
-  #cardLogin input{
-    margin-left: 10%;
-  }
 }
 /* -----------ABOUT US BOSQ---------- */
 /* Pendahuluan page about us */
