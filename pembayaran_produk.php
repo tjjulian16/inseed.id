@@ -1,13 +1,13 @@
- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
- <link rel="icon" href="assets/image/icon/icon.png">
-  <title>inseed.id - Seaweed Invest</title>
+   <link rel="icon" href="assets/image/icon/icon.png">
+  <title>inseed.id - Pembayaran</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styleCSS.css">
   <link rel="stylesheet" href="css/jcarousel.responsive.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -20,26 +20,21 @@ $(window).load(function() {
     $("#loading").fadeOut("slow");
 });
 </script>
-
-<style type="text/css">
-  
-
-</style>
 </head>
 
 <body>
-<div id="loading"></div>
-<section id="header">
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
- <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style="  padding: 0 20px 0 20px;
+ <div id="loading"></div>
+  <section id="header">
+<nav class="navbar navbar-expand-lg navbar-light bg-white" >
+ <a href="{{URL::to('welcome')}}"><img src="assets/image/logo.png" style=" padding: 0 20px 0 20px;
     height: 75px;
-    width: 250px;"></a>  
+    width: 250px;"></a> 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
  
 
-  <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="{{URL::to('welcome')}}">HOME <span class="sr-only">(current)</span></a>
@@ -64,97 +59,96 @@ $(window).load(function() {
 </nav>
   </section>
 
-
-<section id="formJual">
-	
-<div class="container">
-	<div class="col-md-12">
-  <h2>Informasi produk</h2>
+<section id="formPembayaranProduk">
+  <div class="container-fluid" style="padding: 5%;"> 
+    <div class="row">
+      <div class="col-md-7">
+         <h2 style="text-align: center;">Form Pembayaran Produk</h2>
+         <hr class="col-md-4">
   <br>
   <form class="form-horizontal" action="xxxx">
     <div class="form-group">
-      <label class="control-label col-md-4" for="produk">Nama Produk</label>
+      <label class="control-label col-md-4" for="produk">Metode Pembayaran</label>
       <div class="col-md-12">
-        <input type="text" class="form-control" id="produk" placeholder="Masukkan Nama Produk" name="produk">
+         <select class="form-control" id="sel1" placeholder="Metode Pembayaran">
+        <option>ATM</option>
+      </select>
       </div>
     </div>
 
-     <div class="form-group">
-  		<label class="control-label col-md-4" for="deskripsi">Deskripsi Produk</label>
-      	<div class="col-md-12">
-  			<textarea class="form-control" rows="5" id="deskripsi" placeholder="masukkan keterangan produkmu"></textarea>
-  		</div>
-	</div>
-
-
-    <div class="form-group">
-      <label class="control-label col-md-4" for="sell">Kategori</label>
-      <div class="col-md-12">          
+  <div class="form-group">
+      <label class="control-label col-md-4" for="deskripsi">Pilih Bank</label>
+        <div class="col-md-12">
         <select class="form-control" id="sel1" placeholder="Kategori">
-        <option>Makanan & Minuman</option>
-        <option>Kecantikan</option>
-        <option>Lainnya</option>
+        <option>Mandiri</option>
+        <option>BCA</option>
+        <option>NIAGA</option>
       </select>
       </div>
-    </div>
+  </div>
+ 
 
-    <div class="form-group">
-      <label class="control-label col-md-4" for="produk">Lokasi produk</label>
-      <div class="col-md-12">
-        <select class="form-control" id="sel1" placeholder="Lokasi">
-        <option value="Banten">Banten</option>	
-       <option value="Jakarta">Jakarta</option> 	
-       <option value="Jawa Barat">Jawa Barat</option>
-       <option value="Jawa Tengah">Jawa Tengah</option>
-       <option value="Jawa Timur">Jawa Timur</option>
-       <option value="Yogyakarta">Yogyakarta</option>
 
-      </select>
-      </div>
-    </div>
 
-    <div class="form-group">
-		<label class="control-label col-md-4" for="foto">Upload Foto Barang</label>
-      	 <div class="upload-btn-wrapper col-md-12">
-               <button class="btn">Pilih gambar</button>
-                 <input type="file" name="profilePicture" accept=".jpg, .jpeg, .png" multiple>
-              </div>
-    </div>
+  
 
 
   <br>
-    <h2>Harga & Stok</h2>
+    <h2>Pengiriman</h2>
    <br>
    <div class="form-group">
-      <label class="control-label col-md-4" for="produk">Harga (Rp)</label>
+      <label class="control-label col-md-4" for="produk">Pilih Jasa Pengiriman</label>
       <div class="col-md-12">
-        <input type="text" class="form-control" id="produk" placeholder="Masukkan Harga" name="harga">
+        <select class="form-control" id="sel1" placeholder="Jasa Pengiriman">
+        <option>JNE</option>
+        <option>TIKI</option>
+        <option>J&T</option>
+      </select>
       </div>
     </div>
 
      <div class="form-group">
-      <label class="control-label col-md-4" for="produk">Variasi</label>
+      <label class="control-label col-md-4" for="produk">Paket Pengiriman</label>
       <div class="col-md-12">
-        <input type="text" class="form-control" id="produk" placeholder="Masukkan jenis variasi produk" name="harga">
+         <select class="form-control" id="sel1" placeholder="Paket Pengiriman">
+        <option>REG</option>
+        <option>YES</option>
+        <option>OKE</option>
+      </select>
       </div>
     </div>
-	
+  
    
     
     <div class="form-group">        
       <div class="col-sm-offset-2 col-md-12">
         <button type="button" class="btn btn-primary">
-  			Simpan
-		</button>
+        Bayar Sekarang
+    </button>
 
-	</div>
+  </div>
 </div>
 </form>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+  <div class="card-header text-center" style="background-color: green; color:white;">
+   <h3> Detail Pembelian</h3>
+  </div>
+  <div class="card-body descProdukDetail" style="border:0;">
+    <h5 class="card-title">Sub Total (2 Items) :  <span>Rp 50.000</span></h5>
+    <h5 class="card-title">Biaya Pengiriman:  <span>Rp 5.000</span></h5>
+    <h5 class="card-title">Total: <span>Rp 55.000</span></h5>
+  </div>
 </div>
-</div>
+    </div>
+    
+
 </section>
 
-      <section id="contact-us">
+<section id="contact-us">
         <div class="container">
           <div class="row">
            <div class="col-xl-4 col-md-12 col-sm-12 col-xs-12 logo_footer">
@@ -196,5 +190,3 @@ $(window).load(function() {
           </div> 
       </div>
       </section>
-  </body>
-</html>
